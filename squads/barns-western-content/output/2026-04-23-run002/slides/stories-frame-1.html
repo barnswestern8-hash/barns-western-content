@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1920px; overflow: hidden; }
+  .frame {
+    width: 1080px; height: 1920px;
+    position: relative;
+    display: flex; flex-direction: column;
+    justify-content: flex-end;
+    background: #000;
+  }
+  .bg {
+    position: absolute; inset: 0;
+    background-image: url('/assets/products/oculos-roper-2.webp');
+    background-size: cover;
+    background-position: center 25%;
+    filter: brightness(0.32) saturate(0.6);
+  }
+  .overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg,
+      rgba(0,0,0,0.1) 0%,
+      rgba(0,0,0,0.45) 45%,
+      rgba(0,0,0,0.95) 100%
+    );
+  }
+  .brand-tag {
+    position: absolute; top: 80px; left: 80px; z-index: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px; font-weight: 700;
+    letter-spacing: 7px; text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+  }
+  .content {
+    position: relative; z-index: 2;
+    padding: 0 90px 180px;
+  }
+  .label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; font-weight: 700;
+    letter-spacing: 9px; text-transform: uppercase;
+    color: rgba(255,255,255,0.45); margin-bottom: 36px;
+  }
+  .headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 152px;
+    line-height: 0.88;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 44px;
+  }
+  .headline .gold { color: #FFBF1A; }
+  .body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.65);
+  }
+  .corner-logo {
+    position: absolute; top: 80px; right: 80px; z-index: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px; font-weight: 700;
+    letter-spacing: 5px; text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+  }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="bg"></div>
+  <div class="overlay"></div>
+  <div class="brand-tag">Barns Western</div>
+  <div class="corner-logo">@barns.western</div>
+  <div class="content">
+    <div class="label">Status</div>
+    <div class="headline">O Roper<br>não se<br>explica.<br><span class="gold">Se usa.</span></div>
+    <div class="body">Presença não precisa<br>de legenda.</div>
+  </div>
+</div>
+</body>
+</html>

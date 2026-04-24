@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1920px; overflow: hidden; }
+  .frame {
+    width: 1080px; height: 1920px;
+    position: relative;
+    background: #000;
+    display: flex; flex-direction: column;
+    justify-content: center;
+    padding: 160px 100px;
+  }
+  .bg-product {
+    position: absolute; inset: 0;
+    background-image: url('/assets/products/oculos-roper-1.webp');
+    background-size: 680px auto;
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    opacity: 0.08;
+  }
+  .label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px; font-weight: 700;
+    letter-spacing: 10px; text-transform: uppercase;
+    color: rgba(255,255,255,0.4); margin-bottom: 50px;
+    position: relative; z-index: 2;
+  }
+  .headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 118px;
+    line-height: 0.9;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+    position: relative; z-index: 2;
+  }
+  .specs-grid {
+    position: relative; z-index: 2;
+    display: flex; flex-direction: column; gap: 28px;
+  }
+  .spec-item {
+    display: flex; align-items: flex-start; gap: 28px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 32px 36px;
+  }
+  .spec-dot {
+    width: 12px; height: 12px; border-radius: 50%;
+    background: #FFBF1A; flex-shrink: 0; margin-top: 8px;
+  }
+  .spec-content {}
+  .spec-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px; font-weight: 700;
+    color: #FFBF1A; letter-spacing: 2px;
+    text-transform: uppercase; margin-bottom: 8px;
+  }
+  .spec-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px; font-weight: 300;
+    color: rgba(255,255,255,0.65); line-height: 1.4;
+  }
+  .corner-logo {
+    position: absolute; bottom: 80px; right: 80px; z-index: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px; font-weight: 700;
+    letter-spacing: 5px; text-transform: uppercase;
+    color: rgba(255,255,255,0.2);
+  }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="bg-product"></div>
+  <div class="label">Autoridade Técnica</div>
+  <div class="headline">O que faz<br>o Roper<br>diferente.</div>
+  <div class="specs-grid">
+    <div class="spec-item">
+      <div class="spec-dot"></div>
+      <div class="spec-content">
+        <div class="spec-title">UV400 Real</div>
+        <div class="spec-desc">Bloqueia 100% dos raios UVA e UVB. Não é estética — é proteção certificada.</div>
+      </div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-dot"></div>
+      <div class="spec-content">
+        <div class="spec-title">Armação TR90</div>
+        <div class="spec-desc">Leve, flexível e resistente. Feita pra aguentar a rotina de quem trabalha de verdade.</div>
+      </div>
+    </div>
+    <div class="spec-item">
+      <div class="spec-dot"></div>
+      <div class="spec-content">
+        <div class="spec-title">3 Cores</div>
+        <div class="spec-desc">Marrom, preto e azul. Cada uma com identidade própria.</div>
+      </div>
+    </div>
+  </div>
+  <div class="corner-logo">@barns.western</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1920px; overflow: hidden; }
+  .frame {
+    width: 1080px; height: 1920px;
+    background: #000000;
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: flex-start;
+    padding: 160px 100px;
+    position: relative;
+  }
+  .label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px; font-weight: 700;
+    letter-spacing: 10px; text-transform: uppercase;
+    color: rgba(255,255,255,0.4); margin-bottom: 52px;
+  }
+  .question {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 108px;
+    line-height: 0.9;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+    letter-spacing: 2px;
+  }
+  .poll-box {
+    width: 100%;
+    border: 2px solid rgba(255,191,26,0.35);
+    border-radius: 24px; padding: 52px 60px;
+    background: rgba(255,191,26,0.05);
+    margin-bottom: 36px;
+  }
+  .poll-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px; font-weight: 700;
+    letter-spacing: 8px; text-transform: uppercase;
+    color: rgba(255,191,26,0.7); margin-bottom: 36px;
+  }
+  .poll-option {
+    display: flex; align-items: center;
+    border-radius: 14px; padding: 30px 36px;
+    margin-bottom: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px; font-weight: 400;
+    color: #FFFFFF;
+  }
+  .poll-option.active {
+    background: #FFBF1A;
+    color: #000000;
+    font-weight: 700;
+  }
+  .poll-option.passive {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+  .corner-logo {
+    position: absolute; bottom: 80px; right: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px; font-weight: 700;
+    letter-spacing: 5px; text-transform: uppercase;
+    color: rgba(255,255,255,0.2);
+  }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="label">Interativo</div>
+  <div class="question">Você já<br>usava<br>UV no<br>campo?</div>
+  <div class="poll-box">
+    <div class="poll-label">Vote aqui</div>
+    <div class="poll-option active">Sim. Sempre usei.</div>
+    <div class="poll-option passive">Comecei agora com o Roper.</div>
+  </div>
+  <div class="corner-logo">@barns.western</div>
+</div>
+</body>
+</html>

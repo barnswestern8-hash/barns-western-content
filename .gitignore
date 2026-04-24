@@ -1,0 +1,26 @@
+# Sessão do browser (cookies, login — NUNCA commitar)
+_opensquad/_browser_profile/
+
+# Logs de execução
+_opensquad/logs/
+
+# Dependências
+node_modules/
+
+# Configurações locais de ferramentas
+.claude/
+.gemini/
+.playwright-mcp/
+
+# Arquivos de vídeo grandes
+*.mp4
+*.mov
+*.avi
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+*.env.local

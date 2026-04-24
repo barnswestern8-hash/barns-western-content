@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1080px; height: 1920px; overflow: hidden; }
+  .frame {
+    width: 1080px; height: 1920px;
+    position: relative;
+    background: #000;
+    display: flex; flex-direction: column;
+    justify-content: flex-end;
+  }
+  .bg {
+    position: absolute; inset: 0;
+    background-image: url('/assets/products/oculos-roper-4.webp');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.28) saturate(0.5);
+  }
+  .overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg,
+      rgba(0,0,0,0.05) 0%,
+      rgba(0,0,0,0.5) 50%,
+      rgba(0,0,0,0.97) 100%
+    );
+  }
+  .content {
+    position: relative; z-index: 2;
+    padding: 0 100px 160px;
+    text-align: center;
+  }
+  .signature {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; letter-spacing: 8px;
+    text-transform: uppercase; color: rgba(255,255,255,0.45);
+    font-weight: 700; margin-bottom: 36px;
+  }
+  .cta-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 128px;
+    color: #FFFFFF; line-height: 0.88;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 44px;
+  }
+  .cta-sub {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px; font-weight: 300;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 3px; text-transform: uppercase;
+    margin-bottom: 52px;
+  }
+  .arrow { font-size: 58px; margin-bottom: 44px; display: block; }
+  .link-box {
+    background: #FFBF1A;
+    border-radius: 20px; padding: 34px 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px; font-weight: 700;
+    color: #000000;
+    letter-spacing: 2px; text-transform: uppercase;
+    display: inline-block;
+  }
+  .corner-logo {
+    position: absolute; top: 80px; right: 80px; z-index: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px; font-weight: 700;
+    letter-spacing: 5px; text-transform: uppercase;
+    color: rgba(255,255,255,0.35);
+  }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="bg"></div>
+  <div class="overlay"></div>
+  <div class="corner-logo">@barns.western</div>
+  <div class="content">
+    <div class="signature">This is Barns.</div>
+    <div class="cta-text">Garanta<br>o seu.</div>
+    <div class="cta-sub">Roper UV400 — R$159,90</div>
+    <span class="arrow">👇</span>
+    <div class="link-box">barnswestern.com.br</div>
+  </div>
+</div>
+</body>
+</html>

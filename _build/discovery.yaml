@@ -1,0 +1,46 @@
+squad_code: "barns-western-content"
+purpose: "Criar conteúdo para redes sociais da Barns Western — posts, Reels e Stories que reflitam o estilo country/western da marca"
+domain: "content"
+
+company:
+  name: "Barns Western"
+  tone: "Informal, descontraído e aspiracional — com identidade firme, autêntica, direta, confiante e respeitosa"
+  products: "Óculos solares UV400, cintos, fivelas, braceletes de cobre, bonés, calçados, canivetes, correntes, pulseiras e colares"
+
+language: "Português (Brasil)"
+
+context:
+  audience: "Ambos — clientes atuais (fidelização) e novos clientes em potencial (atração e conversão)"
+  platforms: "Instagram (Feed, Reels, Stories) — principal; TikTok e outros secundários"
+  tone: "Firme. Autêntico. Direto. Confiante. Respeitoso."
+
+tools_needed:
+  - "instagram-publisher"
+  - "image-creator"
+  - "image-ai-generator"
+  - "template-designer"
+  - "blotato"
+
+investigation:
+  enabled: true
+  profiles:
+    - url: "https://www.instagram.com/bexsunglasses/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/pbr/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/tecovas/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/barns.western/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/ariatinternational/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+
+target_formats:
+  - "instagram-feed"
+  - "instagram-reels"
+  - "instagram-stories"
