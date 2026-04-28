@@ -1,0 +1,6 @@
+id,name,title,icon,execution,path
+beatriz-buscadora,Beatriz Buscadora,Scout de Influenciadores,🔍,subagent,./agents/beatriz-buscadora.agent.md
+adriano-agro,Adriano Agro,Analista de Fit,📊,subagent,./agents/adriano-agro.agent.md
+carlos-convida,Carlos Convida,Redator de Propostas,✉️,inline,./agents/carlos-convida.agent.md
+renata-revisao,Renata Revisão,Revisora de Qualidade,✔️,inline,./agents/renata-revisao.agent.md
+mario-mensagem,Mário Mensagem,Executor de Outreach,📤,subagent,./agents/mario-mensagem.agent.md

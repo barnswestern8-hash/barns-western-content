@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px;
+      height: 1920px;
+      background: #000;
+      overflow: hidden;
+      position: relative;
+    }
+    #bg-image {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: center 20%;
+      background-repeat: no-repeat;
+    }
+    #bg-image::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom,
+        rgba(0,0,0,0.30) 0%,
+        rgba(0,0,0,0.10) 25%,
+        rgba(0,0,0,0.35) 55%,
+        rgba(0,0,0,0.88) 80%,
+        rgba(0,0,0,0.96) 100%
+      );
+    }
+    .bottom-bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 4px;
+      background: #FFBF1A;
+      z-index: 10;
+    }
+    .logo-area {
+      position: absolute;
+      bottom: 400px;
+      left: 52px;
+      z-index: 5;
+    }
+    #brand-logo { display: flex; align-items: center; }
+    .brand-text-fallback {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 22px;
+      color: rgba(255,255,255,0.45);
+      letter-spacing: 6px;
+    }
+    .content {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      z-index: 4;
+      padding: 0 80px 480px 80px;
+    }
+    .headline {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 148px;
+      line-height: 0.88;
+      color: #fff;
+      text-shadow: 2px 2px 0 rgba(0,0,0,0.85), 0 0 40px rgba(0,0,0,0.9);
+    }
+    .emoji-line {
+      font-size: 96px;
+      margin-top: 16px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div id="bg-image"></div>
+  <div class="bottom-bar"></div>
+  <div class="logo-area">
+    <div id="brand-logo"><span class="brand-text-fallback">BARNS WESTERN</span></div>
+  </div>
+  <div class="content">
+    <div class="headline">DE ONDE<br>VOCÊ É,<br>TODO MUNDO<br>JÁ SABE.</div>
+  </div>
+</body>
+</html>

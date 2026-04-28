@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px;
+      height: 1920px;
+      background: #060302;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* === CAMPO AO ENTARDECER — CSS gerado por IA === */
+
+    /* Céu dramático */
+    .sky {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 52%;
+      background: linear-gradient(to bottom,
+        #050201 0%,
+        #0f0601 30%,
+        #2a0e00 65%,
+        #5c2500 85%,
+        #7a3800 100%
+      );
+    }
+    /* Brilho dourado no horizonte */
+    .horizon-glow {
+      position: absolute;
+      top: 48%;
+      left: -10%; right: -10%;
+      height: 120px;
+      background: radial-gradient(ellipse at 50% 50%,
+        rgba(255,191,26,0.55) 0%,
+        rgba(255,140,0,0.3) 30%,
+        rgba(200,80,0,0.15) 55%,
+        transparent 70%
+      );
+    }
+    /* Linha do horizonte */
+    .horizon-line {
+      position: absolute;
+      top: 52%;
+      left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(to right,
+        transparent 0%,
+        rgba(255,191,26,0.5) 15%,
+        #FFBF1A 40%,
+        rgba(255,220,80,1) 50%,
+        #FFBF1A 60%,
+        rgba(255,191,26,0.5) 85%,
+        transparent 100%
+      );
+    }
+    /* Terra / campo */
+    .earth {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 48%;
+      background: linear-gradient(to bottom,
+        #3a1200 0%,
+        #1a0800 25%,
+        #0d0400 55%,
+        #060200 100%
+      );
+    }
+    /* Textura de capim — linhas horizontais sutis */
+    .field-texture {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 35%;
+      background: repeating-linear-gradient(
+        to bottom,
+        transparent 0px, transparent 14px,
+        rgba(255,191,26,0.03) 14px, rgba(255,191,26,0.03) 15px
+      );
+    }
+    /* Linhas de perspectiva do campo */
+    .perspective-left {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 2px;
+      height: 40%;
+      background: linear-gradient(to top, transparent, rgba(255,191,26,0.12));
+      transform-origin: bottom center;
+      transform: rotate(-18deg);
+    }
+    .perspective-right {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 2px;
+      height: 40%;
+      background: linear-gradient(to top, transparent, rgba(255,191,26,0.12));
+      transform-origin: bottom center;
+      transform: rotate(18deg);
+    }
+    /* Silhueta de árvore ou vegetação baixa */
+    .silhouette {
+      position: absolute;
+      top: 44%;
+      left: 4%;
+      width: 3px;
+      height: 80px;
+      background: rgba(0,0,0,0.8);
+    }
+    .silhouette::before {
+      content: '';
+      position: absolute;
+      top: -30px; left: -14px;
+      width: 30px; height: 34px;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      background: rgba(5,2,0,0.9);
+    }
+
+    /* Scrim escuro na zona do texto para garantir contraste */
+    .text-zone {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 68%;
+      background: linear-gradient(to bottom,
+        rgba(0,0,0,0.0) 0%,
+        rgba(0,0,0,0.55) 22%,
+        rgba(0,0,0,0.72) 55%,
+        rgba(0,0,0,0.78) 100%
+      );
+      z-index: 4;
+    }
+    /* === CONTEÚDO === */
+    .content {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-46%);
+      left: 0; right: 0;
+      z-index: 5;
+      padding: 0 80px;
+    }
+    /* Linha vertical dourada à esquerda */
+    .v-line {
+      position: absolute;
+      left: 52px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 4px;
+      height: 260px;
+      background: linear-gradient(to bottom, transparent, #FFBF1A, transparent);
+      z-index: 5;
+    }
+    .headline {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 136px;
+      line-height: 0.9;
+      color: #FFFFFF;
+      text-shadow: 2px 2px 0 rgba(0,0,0,0.85), 0 0 40px rgba(0,0,0,0.9);
+      margin-bottom: 44px;
+    }
+    .body-text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 44px;
+      font-weight: 500;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.95);
+      max-width: 860px;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.9);
+    }
+    .logo-area {
+      position: absolute;
+      bottom: 380px; left: 80px;
+      z-index: 6;
+    }
+    #brand-logo { display: flex; align-items: center; }
+    .brand-text-fallback {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 22px;
+      color: rgba(255,255,255,0.35);
+      letter-spacing: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sky"></div>
+  <div class="horizon-glow"></div>
+  <div class="horizon-line"></div>
+  <div class="earth"></div>
+  <div class="field-texture"></div>
+  <div class="perspective-left"></div>
+  <div class="perspective-right"></div>
+  <div class="silhouette"></div>
+  <div class="text-zone"></div>
+  <div class="v-line"></div>
+  <div class="content">
+    <div class="headline">O CAMPO<br>CARREGOU<br>VOCÊ<br>ATÉ AQUI.</div>
+    <div class="body-text">Não precisa de aprovação de quem não entende. Quem é de verdade, reconhece.</div>
+  </div>
+  <div class="logo-area">
+    <div id="brand-logo"><span class="brand-text-fallback">🎖 BARNS WESTERN</span></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+squad_code: "influencer-outreach"
+purpose: "Buscar criadores de conteúdo e influenciadores no Instagram com bom engajamento e fit com o estilo country/western da Barns Western, gerar propostas de parceria personalizadas (produto grátis + pagamento por produção), e enviar via DM no Instagram."
+domain: "mixed"  # research + automation
+
+company:
+  name: "Barns Western"
+  tone: "Informal, descontraído e aspiracional"
+  products: "Óculos UV400, cintos, braceletes, bonés, calçados, canivetes, acessórios country/western"
+
+language: "Português (Brasil)"
+
+context:
+  audience: "Criadores e influenciadores de qualquer tamanho com bom engajamento e perfil alinhado ao estilo country/western"
+  target_size: "Qualquer tamanho, com ênfase em engajamento e fit de nicho"
+  partnership_model: "Produto grátis (gifting) + pagamento por produção de conteúdo"
+  volume_per_run: "10-20 influenciadores por execução"
+  channels: "Instagram DM"
+  trigger: "Manual — usuário executa quando quiser prospectar novos criadores"
+
+tools_needed:
+  - "playwright_browser"  # navegação e DM no Instagram
+  - "web_search"          # pesquisa complementar de perfis
+  - "web_fetch"           # coleta de dados públicos
+
+investigation:
+  enabled: true
+  profiles:
+    - url: "https://www.instagram.com/larissavitoriadipietro/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/luanbraganholi/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/jullia_lays/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/acribeiror/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/barns.western/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+
+target_formats: []  # não é squad de conteúdo

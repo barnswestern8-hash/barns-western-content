@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px;
+      height: 1920px;
+      background: #000;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .bottom-bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 6px;
+      background: #FFBF1A;
+      z-index: 10;
+    }
+    .logo-area {
+      position: absolute;
+      bottom: 400px;
+      left: 52px;
+      z-index: 5;
+    }
+    #brand-logo { display: flex; align-items: center; }
+    .brand-text-fallback {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 22px;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 6px;
+    }
+    .content {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0; right: 0;
+      padding: 0 90px;
+      z-index: 4;
+      text-align: left;
+    }
+    .headline {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 148px;
+      line-height: 0.88;
+      color: #fff;
+    }
+    .gold-bar {
+      width: 52px;
+      height: 5px;
+      background: #FFBF1A;
+      margin: 32px 0 28px;
+    }
+    .cta {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 52px;
+      font-weight: 500;
+      color: rgba(255,255,255,0.7);
+      letter-spacing: 1px;
+    }
+    .link-hint {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 38px;
+      font-weight: 500;
+      color: rgba(255,255,255,0.4);
+      margin-top: 20px;
+      letter-spacing: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="bottom-bar"></div>
+  <div class="logo-area">
+    <div id="brand-logo"><span class="brand-text-fallback">BARNS WESTERN</span></div>
+  </div>
+  <div class="content">
+    <div class="headline">COMPLETE<br>O SEU ESTILO.</div>
+    <div class="gold-bar"></div>
+    <div class="cta">Garanta o Yellowstone.<br>barnswestern.com.br</div>
+  </div>
+</body>
+</html>

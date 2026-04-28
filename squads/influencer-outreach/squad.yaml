@@ -1,0 +1,42 @@
+name: "Barns Western — Influencer Outreach"
+code: "influencer-outreach"
+description: "Busca, analisa e aborda criadores de conteúdo country/western no Instagram com propostas personalizadas de parceria (gifting + pagamento)."
+version: "1.0.0"
+created: "2026-04-24"
+language: "pt-BR"
+
+company:
+  name: "Barns Western"
+  instagram: "@barns.western"
+  email: "barnswestern8@gmail.com"
+
+skills:
+  - playwright_browser
+  - web_search
+  - web_fetch
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+
+agents:
+  - id: beatriz-buscadora
+    file: agents/beatriz-buscadora.agent.md
+  - id: adriano-agro
+    file: agents/adriano-agro.agent.md
+  - id: carlos-convida
+    file: agents/carlos-convida.agent.md
+  - id: renata-revisao
+    file: agents/renata-revisao.agent.md
+  - id: mario-mensagem
+    file: agents/mario-mensagem.agent.md
+
+memory:
+  file: _memory/memories.md
+  runs: _memory/runs.md
+
+pipeline:
+  file: pipeline/pipeline.yaml

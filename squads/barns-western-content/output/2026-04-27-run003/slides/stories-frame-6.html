@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px;
+      height: 1920px;
+      background: #040201;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0 88px;
+      text-align: center;
+    }
+
+    /* === ESTRADA AO HORIZONTE — CSS gerado por IA === */
+
+    /* Céu noturno-quente */
+    .sky-layer {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 55%;
+      background: linear-gradient(to bottom,
+        #020101 0%,
+        #0c0500 40%,
+        #3a1500 80%,
+        #6b2e00 100%
+      );
+    }
+    /* Brilho dourado central — luz no horizonte */
+    .central-glow {
+      position: absolute;
+      top: 42%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 700px;
+      height: 300px;
+      background: radial-gradient(ellipse at 50% 60%,
+        rgba(255,191,26,0.45) 0%,
+        rgba(255,140,0,0.25) 25%,
+        rgba(180,60,0,0.12) 50%,
+        transparent 70%
+      );
+    }
+    /* Linha do horizonte */
+    .horizon {
+      position: absolute;
+      top: 54%;
+      left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(to right,
+        transparent 0%,
+        rgba(255,191,26,0.4) 10%,
+        rgba(255,220,100,1) 40%,
+        #FFBF1A 50%,
+        rgba(255,220,100,1) 60%,
+        rgba(255,191,26,0.4) 90%,
+        transparent 100%
+      );
+    }
+    /* Terra / estrada */
+    .ground {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 46%;
+      background: linear-gradient(to bottom,
+        #2e1100 0%,
+        #150700 30%,
+        #080300 70%,
+        #030100 100%
+      );
+    }
+    /* Linhas de perspectiva da estrada */
+    .road-line-left {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 1px;
+      height: 46%;
+      background: linear-gradient(to top, rgba(255,191,26,0.18), transparent);
+      transform-origin: bottom;
+      transform: rotate(-12deg) translateX(-180px);
+    }
+    .road-line-right {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 1px;
+      height: 46%;
+      background: linear-gradient(to top, rgba(255,191,26,0.18), transparent);
+      transform-origin: bottom;
+      transform: rotate(12deg) translateX(180px);
+    }
+    /* Vinheta */
+    .vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center,
+        transparent 35%,
+        rgba(0,0,0,0.6) 100%
+      );
+    }
+    /* Moldura sutil dourada */
+    .frame-border {
+      position: absolute;
+      inset: 40px;
+      border: 1px solid rgba(255,191,26,0.12);
+      z-index: 1;
+    }
+
+    /* Scrim central para contraste de texto sobre horizonte brilhante */
+    .text-zone {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom,
+        rgba(0,0,0,0.25) 0%,
+        rgba(0,0,0,0.55) 30%,
+        rgba(0,0,0,0.6) 55%,
+        rgba(0,0,0,0.45) 75%,
+        rgba(0,0,0,0.2) 100%
+      );
+      z-index: 4;
+    }
+    /* === CONTEÚDO === */
+    .content {
+      position: relative;
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .headline {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 152px;
+      line-height: 0.87;
+      color: #fff;
+      text-shadow: 2px 2px 0 rgba(0,0,0,0.8), 0 0 50px rgba(0,0,0,0.9);
+      margin-bottom: 28px;
+    }
+    .sub {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 82px;
+      color: #FFBF1A;
+      letter-spacing: 5px;
+      text-shadow: 2px 2px 0 rgba(0,0,0,0.9), 0 0 30px rgba(0,0,0,0.95);
+      margin-bottom: 44px;
+    }
+    .gold-bar {
+      width: 80px;
+      height: 4px;
+      background: #FFBF1A;
+      margin-bottom: 44px;
+    }
+    .cta-text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 32px;
+      font-weight: 500;
+      color: rgba(255,255,255,0.9);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.9);
+    }
+    .logo-area {
+      position: absolute;
+      bottom: 380px; left: 0; right: 0;
+      text-align: center;
+      z-index: 6;
+    }
+    #brand-logo { display: inline-flex; align-items: center; }
+    .brand-text-fallback {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 24px;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 7px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sky-layer"></div>
+  <div class="central-glow"></div>
+  <div class="horizon"></div>
+  <div class="ground"></div>
+  <div class="road-line-left"></div>
+  <div class="road-line-right"></div>
+  <div class="vignette"></div>
+  <div class="text-zone"></div>
+  <div class="content">
+    <div class="headline">VISTA<br>SUA<br>RAIZ.</div>
+    <div class="sub">ENCARE O MUNDO.</div>
+    <div class="gold-bar"></div>
+    <div class="cta-text">Link na bio — barnswestern.com.br</div>
+  </div>
+  <div class="logo-area">
+    <div id="brand-logo"><span class="brand-text-fallback">🎖 BARNS WESTERN</span></div>
+  </div>
+</body>
+</html>

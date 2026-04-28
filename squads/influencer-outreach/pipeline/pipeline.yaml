@@ -1,0 +1,66 @@
+name: "Influencer Outreach Pipeline"
+squad: "influencer-outreach"
+version: "1.0.0"
+
+steps:
+  - step: 1
+    name: "checkpoint-foco-de-busca"
+    file: "pipeline/steps/step-01-checkpoint-foco-de-busca.md"
+    type: checkpoint
+
+  - step: 2
+    name: "buscar-candidatos"
+    file: "pipeline/steps/step-02-buscar-candidatos.md"
+    type: agent
+    agent: beatriz-buscadora
+    execution: subagent
+
+  - step: 3
+    name: "checkpoint-selecionar-perfis"
+    file: "pipeline/steps/step-03-checkpoint-selecionar-perfis.md"
+    type: checkpoint
+
+  - step: 4
+    name: "analisar-perfis"
+    file: "pipeline/steps/step-04-analisar-perfis.md"
+    type: agent
+    agent: adriano-agro
+    execution: subagent
+
+  - step: 5
+    name: "checkpoint-aprovar-lista-outreach"
+    file: "pipeline/steps/step-05-checkpoint-aprovar-lista-outreach.md"
+    type: checkpoint
+
+  - step: 6
+    name: "escrever-propostas"
+    file: "pipeline/steps/step-06-escrever-propostas.md"
+    type: agent
+    agent: carlos-convida
+    execution: inline
+
+  - step: 7
+    name: "revisar-propostas"
+    file: "pipeline/steps/step-07-revisar-propostas.md"
+    type: agent
+    agent: renata-revisao
+    execution: inline
+    on_reject: 6
+
+  - step: 8
+    name: "checkpoint-aprovar-antes-de-enviar"
+    file: "pipeline/steps/step-08-checkpoint-aprovar-antes-de-enviar.md"
+    type: checkpoint
+
+  - step: 9
+    name: "enviar-dms"
+    file: "pipeline/steps/step-09-enviar-dms.md"
+    type: agent
+    agent: mario-mensagem
+    execution: subagent
+
+checkpoints:
+  - step: 1
+  - step: 3
+  - step: 5
+  - step: 8

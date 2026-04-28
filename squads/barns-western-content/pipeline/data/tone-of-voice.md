@@ -67,12 +67,34 @@ O consumidor Barns é country de verdade. Não quer bajulação, não compra urg
 - "Garante o seu" como único CTA — funcional, mas comum demais
 - Frases com múltiplas ideias — cada post = uma ideia central
 - "Olha que lindo! Compre agora!" — voz morta, sem personalidade
+- Palavras de formalidade excessiva: "antecede", "precede", "concebe" — substituir por equivalente coloquial e direto
 
-### Emojis autorizados
-- 🎖️ Assinatura de marca ("This is Barns.")
-- 🇧🇷 Orgulho nacional (raramente — não forçar)
-- 🤠 Identidade cowboy (contexto lifestyle e lançamento)
-- ☀️ Proteção UV400 (posts educativos e produto)
+### Anglicismos — regra por gênero do produto
+
+**Produto masculino ou unissex (regra obrigatória):**
+- Proibido: "look", "souvenir", "style", "lifestyle" (no copy direto)
+- Usar: "estilo", "visual", "jeito de ser", "de verdade", vocabulário do campo
+- Exemplo correto: "Complete o seu estilo." em vez de "Feche o look."
+
+**Produto feminino:**
+- Anglicismos de moda com moderação — manter autenticidade country
+- Nunca em excesso. O campo não tem vocabulário de vitrine de shopping.
+
+### Não repetir palavra-âncora no mesmo run
+
+Máximo 2 ocorrências por run completo (feed + reels + stories) de cada palavra-âncora:
+- "raiz" → variações: "origem", "de onde veio", "o que define"
+- "campo" → variações: "a lida", "o dia a dia", "a rotina"
+- "identidade" → variações: "quem você é", "o que representa", "o que diz antes de você falar"
+
+### Emojis — onde são permitidos
+
+- **Legendas de texto (caption Instagram)**: emojis são permitidos com moderação
+  - 🎖️ Assinatura de marca ("This is Barns.")
+  - 🇧🇷 Orgulho nacional (raramente — não forçar)
+  - 🤠 Identidade cowboy (contexto lifestyle e lançamento)
+  - ☀️ Proteção UV400 (posts educativos e produto)
+- **Frames HTML (imagens renderizadas)**: emojis são totalmente proibidos — não renderizam bem via Playwright e não combinam com o visual premium da marca
 
 ---
 
@@ -85,3 +107,6 @@ O consumidor Barns é country de verdade. Não quer bajulação, não compra urg
 5. **Assinatura Barns em todo post de Feed**: "🎖️ This is Barns." ou "O celeiro guarda a essência do Cowboy."
 6. **Máximo 5 hashtags**: Qualidade sobre quantidade — padrão identificado nos 5 perfis investigados.
 7. **Sem em-dashes**: Usar ponto, dois pontos ou quebra de linha.
+8. **Sem anglicismos em produtos masculinos/unissex**: Português direto e coloquial do campo. Ver regra de anglicismos acima.
+9. **Zero emojis em frames HTML**: Emojis apenas nas legendas de texto (captions). Nunca dentro de arquivos HTML renderizados.
+10. **Sem formalidade excessiva no copy**: Vocabulário deve soar como conversa de campo, não como redação acadêmica. Evitar termos como "antecede", "precede", "denota".

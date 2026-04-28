@@ -31,8 +31,12 @@ Há alguma mensagem, dado ou ângulo que você quer que seja obrigatoriamente in
 Exemplos: "quero destacar que o UV400 bloqueia 100% dos raios UVA e UVB", "temos uma promoção de 2º par com 50% off esse mês"
 
 **4. Referência de imagem (opcional)**
-Há uma foto do produto disponível em `assets/products/`? Se sim, qual o nome do arquivo?
-Se não, o agente de Feed usará IA com referência de produto para gerar a imagem.
+O banco de imagens está organizado em `assets/products/` por categoria e gênero. Consulte `assets/catalog.md` para ver todos os produtos disponíveis.
+
+Informe: categoria, gênero (se aplicável) e nome do produto.
+Exemplos: "Óculos Masculino — Óculos Hunter", "Fivelas Feminino — Fivela Luna", "Bonés — Boné Classic"
+
+Se o produto não estiver no catálogo, o agente de Feed usará IA com `--reference` apontando para produto similar.
 
 ---
 

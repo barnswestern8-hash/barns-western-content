@@ -1,0 +1,49 @@
+squad_code: "meta-ads-barns"
+purpose: "Squad autônomo de produção de anúncios para Meta Ads — gera buyer personas profundas, copys de alta conversão, briefings visuais e planos de A/B testing específicos para a Barns Western."
+domain: "mixed"
+
+company:
+  name: "Barns Western"
+  tone: "Informal, descontraído e aspiracional — Estilo, Proteção e Exclusividade"
+  products: "Óculos solares UV400, cintos, fivelas, braceletes de cobre, correntes, bonés, calçados, canivetes, palmilhas ortopédicas, colares"
+
+language: "Português (Brasil)"
+
+context:
+  audience: "Consumidores do nicho country/western brasileiro — homens e mulheres que valorizam estilo rural e exclusividade"
+  platforms: "Meta Ads (Instagram Feed, Reels, Stories)"
+  tone: "Persuasivo, psicologia comportamental, vendas reais, linguagem direta e impactante"
+  scope: "Específico para Barns Western"
+  squad_structure:
+    agent_1: "Coletor de Negócio — carrega dados da Barns Western e contexto da campanha"
+    agent_2: "Engenheiro de Buyer Personas — gera 6 personas psicológicas aprofundadas"
+    agent_3: "Estrategista de Angulação — 10 ângulos, promessas e hooks por persona"
+    agent_4: "Copywriter Meta Ads — headlines, primary texts, CTAs e anúncios por formato"
+    agent_5: "Diretor Criativo — briefings visuais para feed, stories e reels"
+    agent_6: "Cientista de Testes — plano A/B com 6 campanhas e métricas-alvo"
+
+tools_needed:
+  - "built-in web browsing"
+  - "file reading/writing"
+  - "code execution"
+
+investigation:
+  enabled: true
+  profiles:
+    - url: "https://www.instagram.com/tecovas/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/bexsunglasses/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/ariatinternational/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+    - url: "https://www.instagram.com/barns.western/?hl=pt-br"
+      platform: "instagram"
+      investigation_mode: "profile_3"
+
+target_formats:
+  - "instagram-feed"
+  - "instagram-reels"
+  - "instagram-stories"

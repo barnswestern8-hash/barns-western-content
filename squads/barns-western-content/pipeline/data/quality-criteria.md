@@ -52,6 +52,10 @@ Qualquer anti-padrão presente = FAIL automático.
 - CTA com urgência falsa ("ÚLTIMAS UNIDADES!!!!", "CORRE!")
 - Manifesto + desconto no mesmo post
 - Pergunta como hook principal
+- Anglicismo em produto masculino ou unissex ("look", "souvenir", "style")
+- Emoji dentro de frame HTML renderizado
+- Elemento interativo (poll, quiz, enquete) em Stories
+- Palavra formal excessiva no copy ("antecede", "precede") incompatível com voz do campo
 
 ---
 
@@ -91,11 +95,13 @@ Qualquer anti-padrão presente = FAIL automático.
 | Critério | Score | O que verificar |
 |---|---|---|
 | Alinhamento com Feed | 1-10 | Mesmo tema, produto e narrativa do Feed do run |
-| Quantidade de frames | 1-10 | 3-7 frames com arco narrativo completo |
-| Elemento interativo | 1-10 | Mínimo 1 frame com poll/quiz/pergunta/emoji slider |
+| Quantidade de frames | 1-10 | 3-7 frames com arco declarativo completo |
+| Zero interatividade | 1-10 | Nenhum frame contém poll, quiz, enquete, emoji slider ou instrução de sticker |
+| Zero emojis em frames | 1-10 | Nenhum emoji dentro do HTML renderizado |
 | Texto por frame | 1-10 | Máximo 3 linhas por frame |
-| Link sticker | 1-10 | Presente quando post tem produto para compra |
+| CTA com URL | 1-10 | Frame de CTA com URL visível (barnswestern.com.br) quando há produto |
 | Tom casual | 1-10 | Mais conversacional que o Feed — voz de DM |
+| Vocabulário | 1-10 | Sem anglicismos em produto masculino/unissex. Sem termos excessivamente formais |
 
 **Score mínimo para aprovar cada critério**: 4/10
 **Score médio para APROVAR Stories**: 7.0/10

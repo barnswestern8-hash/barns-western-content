@@ -67,22 +67,23 @@ Rodrigo Reels e Sofia Stories trabalham em paralelo para criar, respectivamente,
 
 #### Process
 1. Ler `feed-post.md` (OBRIGATÓRIO) — identificar produto, tema, hook e assinatura do Feed.
-2. Planejar arco narrativo: 3-7 frames com opener → contexto → interativo → CTA.
-3. Escrever cada frame: visual, text overlay (máx 3 linhas), sticker/element.
-4. Incluir mínimo 1 frame com elemento interativo: poll, quiz, question box ou emoji slider com prompt específico.
-5. Incluir frame de CTA com link sticker para barnswestern.com.br quando há produto para compra.
-6. Tom mais casual que o Feed — voz de DM, não de legenda.
+2. Planejar arco declarativo: 3-7 frames com opener → identidade → declarativo → produto → CTA. Todos os frames são declarativos — zero elementos interativos.
+3. Escrever cada frame: visual, text overlay (máx 3 linhas). Nenhum sticker, nenhuma enquete, nenhum emoji nos frames HTML.
+4. Frame de CTA com URL do produto visível (barnswestern.com.br) quando há produto para compra. Sem emoji no frame.
+5. Tom mais casual que o Feed — voz de DM, não de legenda.
+6. **Proibido em todos os frames**: emojis no HTML, elementos interativos (poll/quiz/slider), instruções de sticker do Instagram, anglicismos em produtos masculinos/unissex.
 
 ### Output Format
 ```
 # Stories Sequence — [Produto] — [Ângulo]
-## FRAME 1 (Opener): [visual] / [text overlay — máx 3 linhas] / [sticker]
-## FRAME 2 (Contexto): [visual] / [text overlay] / [sticker ou nenhum]
-## FRAME 3 (Interativo): [visual] / [texto da pergunta] / [Poll/Quiz/Question/Slider]
-## FRAME [N] (Produto, se necessário): [visual] / [text overlay] / [nenhum]
-## FRAME [ÚLTIMO] (CTA): [visual] / [instrução de ação] / [Link sticker → barnswestern.com.br]
+## FRAME 1 (Opener): [visual] / [text overlay declarativo — máx 3 linhas]
+## FRAME 2 (Identidade): [visual] / [text overlay]
+## FRAME 3 (Declarativo): [visual] / [text overlay — declaração de marca ou produto]
+## FRAME [N] (Produto, se necessário): [visual] / [text overlay]
+## FRAME [ÚLTIMO] (CTA): [visual] / [text overlay com URL barnswestern.com.br]
 ## Sequence Notes: total frames / estimated view time / primary goal
 ```
+**Regra**: Nenhum frame contém `[Poll]`, `[Quiz]`, `[Question]`, `[Slider]`, emojis no HTML ou instrução de sticker.
 
 ---
 
@@ -103,7 +104,8 @@ Rejeitar e redo se:
 
 **Sofia Stories**:
 - [ ] `feed-post.md` lido — produto e tema alinhados ao Feed
-- [ ] 3-7 frames com arco narrativo
-- [ ] Mínimo 1 frame interativo com prompt específico
+- [ ] 3-7 frames com arco declarativo (opener → identidade → declarativo → produto → CTA)
+- [ ] Zero elementos interativos em qualquer frame
+- [ ] Zero emojis nos frames HTML
 - [ ] Máximo 3 linhas de texto por frame
 - [ ] Link sticker no CTA quando há produto

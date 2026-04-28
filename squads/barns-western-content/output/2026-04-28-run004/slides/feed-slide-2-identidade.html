@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px;
+      height: 1080px;
+      background: #000;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .bottom-bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 6px;
+      background: #FFBF1A;
+      z-index: 10;
+    }
+    .logo-area {
+      position: absolute;
+      top: 44px;
+      right: 52px;
+      z-index: 5;
+    }
+    #brand-logo { display: flex; align-items: center; }
+    .brand-text-fallback {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 24px;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 7px;
+    }
+    .content {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0; right: 0;
+      padding: 0 88px;
+      z-index: 4;
+    }
+    .gold-bar {
+      width: 52px;
+      height: 5px;
+      background: #FFBF1A;
+      margin-bottom: 32px;
+    }
+    .headline {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 72px;
+      line-height: 0.92;
+      color: #fff;
+      letter-spacing: 1px;
+      margin-bottom: 36px;
+    }
+    .body-text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 42px;
+      font-weight: 500;
+      line-height: 1.45;
+      color: rgba(255,255,255,0.85);
+    }
+    .accent {
+      color: #FFBF1A;
+    }
+  </style>
+</head>
+<body>
+  <div class="bottom-bar"></div>
+  <div class="logo-area">
+    <div id="brand-logo"><span class="brand-text-fallback">BARNS WESTERN</span></div>
+  </div>
+  <div class="content">
+    <div class="gold-bar"></div>
+    <div class="headline">Alguns acessórios passam.<br>A identidade country fica.</div>
+    <div class="body-text">
+      Não existe coleção de primavera no campo. O sol é o mesmo em janeiro e em julho. A poeira não escolhe estação. O boné que você usa na lida não muda com o calendário — porque <span class="accent">raiz não vira tendência</span>, e quem é do campo sabe disso antes de entrar em qualquer loja.
+    </div>
+  </div>
+</body>
+</html>

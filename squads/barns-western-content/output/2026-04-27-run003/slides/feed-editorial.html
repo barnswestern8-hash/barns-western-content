@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px;
+      height: 1080px;
+      background: #000;
+      overflow: hidden;
+      position: relative;
+      font-family: 'Bebas Neue', sans-serif;
+    }
+    #bg-image {
+      position: absolute;
+      inset: 0;
+      background-size: 155%;
+      background-position: 58% 58%;
+      background-repeat: no-repeat;
+    }
+    /* Dark gradient - heavier at top, lighter in middle to show face, stronger at bottom for text */
+    #bg-image::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(to bottom,
+          rgba(0,0,0,0.55) 0%,
+          rgba(0,0,0,0.15) 30%,
+          rgba(0,0,0,0.25) 55%,
+          rgba(0,0,0,0.78) 75%,
+          rgba(0,0,0,0.92) 100%
+        );
+    }
+    /* Gold bottom accent bar */
+    .bottom-bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 5px;
+      background: #FFBF1A;
+      z-index: 10;
+    }
+    /* Logo top right */
+    .logo-area {
+      position: absolute;
+      top: 44px;
+      right: 52px;
+      z-index: 5;
+    }
+    #brand-logo {
+      display: flex;
+      align-items: center;
+    }
+    .brand-text-fallback {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 24px;
+      color: rgba(255,255,255,0.5);
+      letter-spacing: 7px;
+    }
+    /* Content — pinned to bottom */
+    .content {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      z-index: 4;
+      padding: 0 76px 52px 76px;
+    }
+    .gold-bar {
+      width: 56px;
+      height: 5px;
+      background: #FFBF1A;
+      margin-bottom: 24px;
+    }
+    .headline {
+      font-size: 156px;
+      line-height: 0.86;
+      color: #fff;
+      letter-spacing: -1px;
+      margin-bottom: 26px;
+      text-shadow: 0 2px 30px rgba(0,0,0,0.5);
+    }
+    .sub {
+      font-size: 72px;
+      color: #FFBF1A;
+      letter-spacing: 7px;
+    }
+  </style>
+</head>
+<body>
+  <div id="bg-image"></div>
+  <div class="bottom-bar"></div>
+  <div class="logo-area">
+    <div id="brand-logo"><span class="brand-text-fallback">BARNS WESTERN</span></div>
+  </div>
+  <div class="content">
+    <div class="gold-bar"></div>
+    <div class="headline">QUEM<br>CHEGOU<br>CHEGOU.</div>
+    <div class="sub">SEM EXPLICAÇÃO.</div>
+  </div>
+</body>
+</html>

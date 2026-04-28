@@ -1,0 +1,8 @@
+id,name,title,icon,execution,path
+marco-mapa,Marco Mapa,Analista de Marca,🗺️,inline,./agents/marco-mapa.agent.md
+paula-psique,Paula Psique,Engenheira de Buyer Personas,🧠,inline,./agents/paula-psique.agent.md
+andre-angulo,André Ângulo,Estrategista de Ângulos,🎯,inline,./agents/andre-angulo.agent.md
+cleber-conversao,Cléber Conversão,Copywriter de Alta Conversão,✍️,inline,./agents/cleber-conversao.agent.md
+tiago-tela,Tiago Tela,Diretor Criativo,🎨,inline,./agents/tiago-tela.agent.md
+silvia-split,Sílvia Split,Cientista de Testes,🔬,inline,./agents/silvia-split.agent.md
+rafael-revisao,Rafael Revisão,Revisor de Performance,✅,inline,./agents/rafael-revisao.agent.md

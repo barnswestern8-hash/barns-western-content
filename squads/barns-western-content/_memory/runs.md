@@ -20,6 +20,43 @@ Log de todos os runs executados por este squad.
 
 ## Runs
 
+### Run #004 — 2026-04-28
+**Produto/Tema**: Boné Yellowstone (Barns Western)
+**Pilar do dia**: Terça — Lifestyle / Desejo
+**Ângulo escolhido**: PERTENCIMENTO — "BONÉS DE QUEM VIVE O CAMPO. NÃO DE QUEM VISITA."
+**Formatos**: Feed Carrossel Storytelling (4 slides 1080x1080) + Stories 5 frames (1080x1920)
+**Imagens IA**: Stories frame 3 — campo ao entardecer (cerrado, golden hour) via OpenRouter Nano Banana
+**Veredicto**: APROVADO pelo usuário (após ajustes ciclo 1)
+**Publicado**: Não — salvo para publicação manual
+**Notas**:
+- Emojis nas imagens HTML não funcionam bem visualmente — removidos de todos os frames. Regra estabelecida: zero emojis nas imagens renderizadas.
+- Palavras de formalidade excessiva proibidas: "antecede" substituído por "fala por você" — manter vocabulário direto e coloquial.
+- Anglicismos proibidos para produto masculino/unissex: "look" → "estilo" ou "visual". "Souvenir" eliminado. Regra documentada em anti-patterns.md.
+- Enquetes e stickers interativos (poll, quiz, emoji slider) removidos a pedido do usuário — não usar interatividade nativa do Instagram nos próximos runs até nova instrução.
+- Palavra "raiz" usada no máximo 2x por run (slide 2 + reel). Regra de não-repetição de âncoras documentada.
+- Frame 3 Stories com imagem IA de campo ao entardecer + declaração "DO CAMPO PRO ASFALTO. O ESTILO PERMANECE." funcionou muito bem visualmente.
+
+---
+
+### Run #003 — 2026-04-27
+**Produto/Tema**: Manifesto de marca — STATUS "QUEM CHEGOU CHEGOU. SEM EXPLICAÇÃO." (sem produto específico)
+**Pilar do dia**: Domingo — Editorial Visual / Brand Manifesto
+**Ângulo escolhido**: STATUS — identidade de quem chegou sem precisar explicar
+**Formatos**: Feed Foto Editorial (1 slide 1080x1080) + Stories 6 frames (1080x1920)
+**Influencer**: @luanbraganholi — fotos do banco `assets/influencers/@luanbraganholi/`
+**Imagens IA**: Frames 3, 4, 6 gerados com `google/gemini-2.5-flash-image` via OpenRouter
+**Veredicto**: APROVADO pelo usuário
+**Publicado**: Não — salvo para publicação manual
+**Notas**:
+- Primeira integração de geração de imagens com IA (OpenRouter Nano Banana) — funcional
+- Vários ciclos de ajuste antes da aprovação final. Ver aprendizados consolidados em memories.md
+- Logo deve ser `height: 130px` mínimo e posicionado fora da zona de UI do Instagram
+- Texto dourado sobre fundo quente = ilegível — usar branco com scrim escuro
+- Remover textos filler ("Postamos algo diferente hoje.", "Ver post completo no feed")
+- Posts manifesto sem produto: não usar imagens de produto nos Stories
+
+---
+
 ### Run #002 — 2026-04-23
 **Produto/Tema**: Óculos UV400 modelo Roper
 **Pilar do dia**: Autoridade de Marca (quinta-feira)

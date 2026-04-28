@@ -1,0 +1,99 @@
+pipeline:
+  name: "Meta Ads Barns Western — Pipeline Principal"
+  squad: "meta-ads-barns"
+  version: "1.0.0"
+
+  steps:
+    - step: 1
+      name: "briefing"
+      file: "pipeline/steps/step-01-briefing.md"
+      type: checkpoint
+
+    - step: 2
+      name: "brand-context"
+      file: "pipeline/steps/step-02-brand-context.md"
+      agent: "marco-mapa"
+      execution: inline
+
+    - step: 3
+      name: "generate-personas"
+      file: "pipeline/steps/step-03-personas.md"
+      agent: "paula-psique"
+      execution: inline
+
+    - step: 4
+      name: "generate-angles"
+      file: "pipeline/steps/step-04-angles.md"
+      agent: "andre-angulo"
+      execution: inline
+
+    - step: 5
+      name: "review-personas-angles"
+      file: "pipeline/steps/step-05-review-1.md"
+      agent: "rafael-revisao"
+      execution: inline
+      task: "review-phase-1"
+      on_reject: 3
+
+    - step: 6
+      name: "persona-selection"
+      file: "pipeline/steps/step-06-persona-selection.md"
+      type: checkpoint
+
+    - step: 7
+      name: "generate-copy"
+      file: "pipeline/steps/step-07-copy.md"
+      agent: "cleber-conversao"
+      execution: inline
+
+    - step: 8
+      name: "generate-visuals"
+      file: "pipeline/steps/step-08-visuals.md"
+      agent: "tiago-tela"
+      execution: inline
+
+    - step: 9
+      name: "review-copy-visuals"
+      file: "pipeline/steps/step-09-review-2.md"
+      agent: "rafael-revisao"
+      execution: inline
+      task: "review-phase-2"
+      on_reject: 7
+
+    - step: 10
+      name: "copy-approval"
+      file: "pipeline/steps/step-10-copy-approval.md"
+      type: checkpoint
+
+    - step: 11
+      name: "generate-ab-plan"
+      file: "pipeline/steps/step-11-ab-testing.md"
+      agent: "silvia-split"
+      execution: inline
+
+    - step: 12
+      name: "final-review"
+      file: "pipeline/steps/step-12-final-review.md"
+      agent: "rafael-revisao"
+      execution: inline
+      task: "review-final"
+      on_reject: 11
+
+    - step: 13
+      name: "final-approval"
+      file: "pipeline/steps/step-13-final-approval.md"
+      type: checkpoint
+
+  checkpoints:
+    - step: 1
+      name: "briefing"
+      description: "Usuário define produto, objetivo, orçamento estimado e personas prioritárias para o run"
+    - step: 6
+      name: "persona-selection"
+      description: "Usuário revisa 6 personas + 10 ângulos e seleciona 2-3 personas prioritárias para copy completo"
+    - step: 10
+      name: "copy-approval"
+      description: "Usuário revisa copy completo + briefings visuais — aprova, rejeita ou solicita ajustes"
+    - step: 13
+      name: "final-approval"
+      description: "Usuário aprova output completo (copy + visuais + plano A/B) para uso no Meta Ads Manager"

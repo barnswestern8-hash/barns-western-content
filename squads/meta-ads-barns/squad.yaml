@@ -1,0 +1,42 @@
+squad:
+  code: "meta-ads-barns"
+  name: "Meta Ads Barns Western"
+  description: "Gera buyer personas psicológicas, copy de alta conversão, briefings visuais e plano A/B completo para Meta Ads da Barns Western"
+  version: "1.0.0"
+  created: "2026-04-24"
+
+skills: []
+
+data:
+  - pipeline/data/brand-brief.md
+  - pipeline/data/persona-framework.md
+  - pipeline/data/copy-framework.md
+  - pipeline/data/visual-specs.md
+  - pipeline/data/ab-testing-framework.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/quality-criteria.md
+
+pipeline: pipeline/pipeline.yaml
+
+agents:
+  - id: "marco-mapa"
+    file: "agents/marco-mapa.agent.md"
+  - id: "paula-psique"
+    file: "agents/paula-psique.agent.md"
+  - id: "andre-angulo"
+    file: "agents/andre-angulo.agent.md"
+  - id: "cleber-conversao"
+    file: "agents/cleber-conversao.agent.md"
+  - id: "tiago-tela"
+    file: "agents/tiago-tela.agent.md"
+  - id: "silvia-split"
+    file: "agents/silvia-split.agent.md"
+  - id: "rafael-revisao"
+    file: "agents/rafael-revisao.agent.md"
+
+memory:
+  squad: "_memory/memories.md"
+  runs: "_memory/runs.md"
+  company: "_opensquad/_memory/company.md"
+
+output_dir: "output/"

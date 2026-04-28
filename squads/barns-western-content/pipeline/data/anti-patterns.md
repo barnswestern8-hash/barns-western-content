@@ -102,6 +102,48 @@ Lista definitiva do que NUNCA fazer. Qualquer anti-padrão presente = rejeição
 
 ---
 
+### 18. Stories: textos filler genéricos nos frames
+**O que é**: "Postamos algo diferente hoje." / "Ver post completo no feed" / "↓ Swipe para ver mais"
+**Por que é fatal**: Não agrega valor, ocupa espaço de conteúdo real e dilui a identidade Barns.
+**Substituir por**: Texto com propósito — contexto da narrativa, provocação da marca, ou CTA específico.
+
+### 19. Stories: logo abaixo da zona segura do Instagram
+**O que é**: Logo posicionado em `bottom: 68px` ou qualquer valor abaixo de `bottom: 300px`
+**Por que é fatal**: Instagram cobre os ~300px inferiores dos Stories com a UI de resposta/comentários. Logo fica invisível.
+**Substituir por**: Posicionar logo em `bottom: 380px` mínimo, ou no topo do frame.
+
+### 20. Stories: texto dourado sobre fundo quente/dourado
+**O que é**: Usar `#FFBF1A` em headlines de frames com fundo de campo ao entardecer, pôr do sol, celeiro iluminado
+**Por que é fatal**: Texto dourado sobre background quente/laranja = contraste zero, completamente ilegível.
+**Substituir por**: Usar `#FFFFFF` (branco) para headlines em fundos quentes, com text-shadow escuro forte.
+
+### 21. Stories: imagens de produto em posts de manifesto sem produto
+**O que é**: Usar fotos de óculos, bonés ou fivelas como fundo de frames em posts de manifesto/STATUS sem produto específico
+**Por que é fatal**: Cria dissonância entre a mensagem (identidade, manifesto, pertencimento) e o visual (catálogo).
+**Substituir por**: Imagens IA de contexto (campo, celeiro, estrada) ou fotos de influencer. Ver image-design.md.
+
+### 22. Stories: simulação visual de elementos interativos nos frames
+**O que é**: Desenhar botões de poll, caixas de quiz, barras de reação ou qualquer imitação de sticker interativo dentro do HTML do frame
+**Por que é fatal**: Os stickers interativos do Instagram (poll, quiz, question box, emoji slider) são nativos do app — não funcionam em imagem estática. Desenhar esses elementos cria expectativa de funcionalidade que não existe e polui o visual com UI falsa.
+**Substituir por**: Frame limpo com conteúdo textual e visual. O usuário adiciona manualmente o sticker nativo do Instagram por cima do PNG ao publicar.
+
+### 23. Anglicismos e palavras de requinte fora do tom da marca
+**O que é**: Usar palavras em inglês ou de conotação "refinada/sofisticada" que contradizem a autenticidade da marca. Exemplos proibidos: "souvenir", "look" (para público masculino ou unissex), "lifestyle" no copy direto, "premium" sem especificidade.
+**Por que é fatal**: O consumidor Barns é country de verdade — não cosmopolita. Palavras estrangeiras ou de conotação elitista quebram a autenticidade e criam estranhamento.
+**Regra de tom por gênero do produto**:
+- Produto masculino: evitar "look", "style", "souvenir", "premium". Usar: "visual", "aparência", "identidade", "de verdade", vocabulário do campo.
+- Produto unissex: tom neutro — sem termos masculinizados nem feminilizados. Foco na identidade do produto e no campo.
+- Produto feminino: pode usar termos de estilo com moderação, mas manter autenticidade country.
+**Substituir por**: Equivalentes em português direto e específico. "Complete o visual" em vez de "feche o look". "Acessório de verdade" em vez de "souvenir". "De quem vive o campo" em vez de qualquer anglicismo.
+
+### 24. Repetição excessiva de palavras âncora entre slides/frames do mesmo run
+**O que é**: Usar a mesma palavra-chave de identidade ("raiz", "campo", "country de verdade", "identidade") mais de 2 vezes em slides/frames do mesmo run.
+**Por que é fatal**: Repetição excessiva de uma palavra-âncora soa mecânica e cansa o leitor/seguidor — perde o impacto emocional da palavra.
+**Substituir por**: Sinônimos e variações semânticas. Para "raiz": "origem", "de onde veio", "o que define", "quem você é". Para "campo": "lida", "a rotina", "sol na cara". Manter a IDEIA sem repetir o TERMO.
+
+
+---
+
 ## Checklist Rápido (para Vera Veredito)
 
 Antes de emitir veredicto, verificar cada item:
@@ -122,3 +164,6 @@ Antes de emitir veredicto, verificar cada item:
 - [ ] Stories: mínimo 3 frames
 - [ ] Stories: máximo 3 linhas por frame
 - [ ] Imagens: assets/products/ verificado antes de gerar IA
+- [ ] Nenhum anglicismo ("look", "souvenir", "style") em produtos masculinos ou unissex
+- [ ] Palavra-âncora ("raiz", "campo", "identidade") usada no máximo 2x por run completo
+- [ ] Tom neutro aplicado quando produto é unissex

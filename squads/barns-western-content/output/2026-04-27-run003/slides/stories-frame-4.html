@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1080px;
+      height: 1920px;
+      background: #050302;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* === INTERIOR DO CELEIRO — CSS gerado por IA === */
+
+    /* Tábuas verticais de madeira — luz entrando pelas frestas */
+    .plank {
+      position: absolute;
+      top: 0; bottom: 0;
+      width: 1px;
+      background: linear-gradient(to bottom,
+        rgba(255,191,26,0.0) 0%,
+        rgba(255,191,26,0.12) 30%,
+        rgba(255,191,26,0.18) 50%,
+        rgba(255,191,26,0.12) 70%,
+        rgba(255,191,26,0.0) 100%
+      );
+    }
+    .p1 { left: 108px; }
+    .p2 { left: 216px; }
+    .p3 { left: 324px; }
+    .p4 { left: 432px; }
+    .p5 { left: 540px; }
+    .p6 { left: 648px; }
+    .p7 { left: 756px; }
+    .p8 { left: 864px; }
+    .p9 { left: 972px; }
+
+    /* Grão horizontal da madeira */
+    .grain {
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        to bottom,
+        transparent 0px, transparent 10px,
+        rgba(255,255,255,0.008) 10px, rgba(255,255,255,0.008) 11px
+      );
+    }
+
+    /* Luz dramática vindo de cima — como claraboia do celeiro */
+    .skylight {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 300px;
+      height: 600px;
+      background: radial-gradient(ellipse at 50% 0%,
+        rgba(255,191,26,0.22) 0%,
+        rgba(255,140,0,0.1) 35%,
+        transparent 70%
+      );
+    }
+
+    /* Vinheta nas bordas */
+    .vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center,
+        transparent 30%,
+        rgba(0,0,0,0.7) 100%
+      );
+    }
+
+    /* === CONTEÚDO === */
+    .content {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-46%);
+      left: 0; right: 0;
+      z-index: 5;
+      padding: 0 88px;
+    }
+    .word-block { margin-bottom: 0; }
+    .word-en {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 190px;
+      line-height: 1;
+      color: #fff;
+      letter-spacing: 12px;
+      text-shadow: 0 0 80px rgba(255,191,26,0.2);
+    }
+    .word-pt {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+    .divider {
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(to right, #FFBF1A 0%, rgba(255,191,26,0.2) 60%, transparent 100%);
+      margin-bottom: 44px;
+    }
+    .definition {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 42px;
+      font-weight: 500;
+      line-height: 1.65;
+      color: rgba(255,255,255,0.82);
+      font-style: italic;
+      margin-bottom: 60px;
+    }
+    .conclusion {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 90px;
+      color: #FFBF1A;
+      letter-spacing: 5px;
+      text-shadow: 0 0 40px rgba(255,191,26,0.3);
+    }
+    .logo-area {
+      position: absolute;
+      bottom: 380px; left: 88px;
+      z-index: 6;
+    }
+    #brand-logo { display: flex; align-items: center; }
+    .brand-text-fallback {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 22px;
+      color: rgba(255,255,255,0.3);
+      letter-spacing: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="plank p1"></div>
+  <div class="plank p2"></div>
+  <div class="plank p3"></div>
+  <div class="plank p4"></div>
+  <div class="plank p5"></div>
+  <div class="plank p6"></div>
+  <div class="plank p7"></div>
+  <div class="plank p8"></div>
+  <div class="plank p9"></div>
+  <div class="grain"></div>
+  <div class="skylight"></div>
+  <div class="vignette"></div>
+  <div class="content">
+    <div class="word-block">
+      <div class="word-en">BARN</div>
+      <div class="word-pt">substantivo</div>
+    </div>
+    <div class="divider"></div>
+    <div class="definition">"Celeiro. O lugar onde o produtor guarda o que construiu com trabalho. O que tem valor real. O que não se abandona."</div>
+    <div class="conclusion">ESSA É A BARNS.</div>
+  </div>
+  <div class="logo-area">
+    <div id="brand-logo"><span class="brand-text-fallback">🎖 BARNS WESTERN</span></div>
+  </div>
+</body>
+</html>
