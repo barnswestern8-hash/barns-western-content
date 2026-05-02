@@ -1,0 +1,32 @@
+[
+  {
+    "prompt": "Authentic lifestyle photograph of a Brazilian country man aged 30-35, wearing a worn cowboy hat showing real use, plaid flannel shirt open over a plain t-shirt, 3-day stubble beard. He is wearing western sunglasses with beige camouflage pattern frame and dark mirror lenses on his face. The sunglasses are the hero of the image — clearly visible on his face, the distinctive camouflage frame and dark lenses prominently identifiable. Background is blurred outdoor ranch environment with wooden fence posts and dry grass. Golden hour warm amber backlight creates a natural rim light on his profile. Genuine quiet satisfaction expression. The product must be recognizable and prominent on his face. Square 1:1 composition with the man centered and negative space at top and bottom for text overlay. Hyper realistic, 4K quality, warm cinematic color grading, shallow depth of field f/2.8.",
+    "output": "squads/ad-creative-architect/output/2026-05-01-135115/assets/protocolo-A-feed-1x1.png",
+    "reference": "squads/barns-western-content/assets/products/Óculos/Óculos Masculino/Óculos Hunter (7).png"
+  },
+  {
+    "prompt": "Authentic lifestyle photograph of a Brazilian country man aged 30-35, wearing a worn cowboy hat showing real use, plaid flannel shirt open over a plain t-shirt, 3-day stubble beard. He is wearing western sunglasses with beige camouflage pattern frame and dark mirror lenses on his face. The sunglasses are the hero of the image — clearly visible on his face, the distinctive camouflage frame and dark lenses prominently identifiable. Background is blurred outdoor ranch environment with wooden fence posts and dry grass. Golden hour warm amber backlight. Genuine quiet satisfaction expression. Portrait 4:5 vertical composition showing more of the ranch environment, man in center with negative space at top and bottom for text overlay. Hyper realistic, 4K quality, warm cinematic color grading, shallow depth of field f/2.8.",
+    "output": "squads/ad-creative-architect/output/2026-05-01-135115/assets/protocolo-A-feed-4x5.png",
+    "reference": "squads/barns-western-content/assets/products/Óculos/Óculos Masculino/Óculos Hunter (7).png"
+  },
+  {
+    "prompt": "Clean product lifestyle photograph of western sunglasses with glossy black frame and vivid electric blue mirror lenses placed on a rustic natural wood grain surface. A brown kraft cardboard delivery box is slightly open and discretely visible to the side. Soft diffused window light from the left creates gentle warm shadows that reveal the wood grain texture. The blue lenses create a bold color contrast against the warm brown wood. Simple clean square 1:1 composition with the sunglasses as the main focal point in center, negative space at top for text overlay. Top-down or 45-degree angle. Hyper realistic, 4K quality, warm neutral color palette, clean product photography style.",
+    "output": "squads/ad-creative-architect/output/2026-05-01-135115/assets/protocolo-B-feed-1x1.png",
+    "reference": "squads/barns-western-content/assets/products/Óculos/Óculos Masculino/Óculos Hunter (2).png"
+  },
+  {
+    "prompt": "Clean product lifestyle photograph of western sunglasses with glossy black frame and vivid electric blue mirror lenses placed on a rustic natural wood grain surface. A brown kraft cardboard delivery box is slightly open and discretely visible to the side. Soft diffused window light from the left creates gentle warm shadows that reveal the wood grain texture. The blue lenses create a bold color contrast against the warm brown wood. Portrait 4:5 vertical composition with the sunglasses centered in frame, more wood surface visible above and below, negative space at top for text overlay. 45-degree angle. Hyper realistic, 4K quality, warm neutral color palette, clean product photography style.",
+    "output": "squads/ad-creative-architect/output/2026-05-01-135115/assets/protocolo-B-feed-4x5.png",
+    "reference": "squads/barns-western-content/assets/products/Óculos/Óculos Masculino/Óculos Hunter (2).png"
+  },
+  {
+    "prompt": "Authentic documentary style photograph showing masculine hands with natural wear and slight calluses lifting a pair of western sunglasses with camouflage pattern frame and vivid red-orange mirror lenses out of an open brown kraft cardboard box on a wooden table. The sunglasses are the clear focal point — held up in the light, the camouflage frame pattern and red mirror lenses distinctly visible and recognizable. Brown tissue paper crumpled inside the box. Indoor setting with soft neutral light from a nearby window. Shallow depth of field with the sunglasses and hands in sharp focus, background blurred. Slight film grain for authenticity. The product must be clearly identifiable. Square 1:1 format with negative space at top for headline text overlay.",
+    "output": "squads/ad-creative-architect/output/2026-05-01-135115/assets/protocolo-C-gancho-1x1.png",
+    "reference": "squads/barns-western-content/assets/products/Óculos/Óculos Masculino/Óculos Hunter (3).png"
+  },
+  {
+    "prompt": "Authentic documentary style photograph showing masculine hands with natural wear lifting a pair of western sunglasses with camouflage pattern frame and vivid red-orange mirror lenses out of an open brown kraft cardboard box on a dark rustic wooden table. The sunglasses are the clear focal point — held up, the camouflage frame and red mirror lenses distinctly visible. Brown tissue paper inside the box. CRITICAL: the upper 40% of the frame must be naturally dark — the background behind the hands is a dark wooden wall, dark shelving, or deep shadow interior — so that white text overlaid on top is readable without additional scrim. Warm tungsten side light illuminates the hands and product. Shallow depth of field. Slight film grain. Portrait 4:5 vertical. The product must be clearly identifiable.",
+    "output": "squads/ad-creative-architect/output/2026-05-01-135115/assets/protocolo-C-gancho-4x5.png",
+    "reference": "squads/barns-western-content/assets/products/Óculos/Óculos Masculino/Óculos Hunter (3).png"
+  }
+]

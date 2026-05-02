@@ -1,0 +1,86 @@
+name: "Email Marketing Pipeline"
+squad: "email-marketing"
+version: "1.0.0"
+
+steps:
+  - step: 1
+    name: "briefing-campanha"
+    file: "steps/step-01-briefing.md"
+    type: checkpoint
+
+  - step: 2
+    name: "estrategia-segmentacao"
+    file: "steps/step-02-strategy.md"
+    agent: "squads/email-marketing/agents/sofia-segmentos"
+    execution: inline
+    input_file: "squads/email-marketing/output/campaign-briefing.md"
+    output_file: "squads/email-marketing/output/strategy-brief.md"
+
+  - step: 3
+    name: "copy-email"
+    file: "steps/step-03-copy.md"
+    agent: "squads/email-marketing/agents/carlos-conversao"
+    execution: inline
+    format: email-sales
+    input_file: "squads/email-marketing/output/strategy-brief.md"
+    output_file: "squads/email-marketing/output/email-copy.md"
+
+  - step: 4
+    name: "aprovar-copy"
+    file: "steps/step-04-approve-copy.md"
+    type: checkpoint
+
+  - step: 5
+    name: "gerar-banner"
+    file: "steps/step-05-banner.md"
+    agent: "squads/email-marketing/agents/beatriz-banner"
+    execution: subagent
+    model_tier: fast
+    input_file: "squads/email-marketing/output/email-copy.md"
+    output_file: "squads/email-marketing/output/email-banner.jpg"
+
+  - step: 6
+    name: "aprovar-visual"
+    file: "steps/step-06-approve-visual.md"
+    type: checkpoint
+
+  - step: 7
+    name: "revisao-qualidade"
+    file: "steps/step-07-review.md"
+    agent: "squads/email-marketing/agents/roberto-revisao"
+    execution: inline
+    input_file: "squads/email-marketing/output/email-copy.md"
+    output_file: "squads/email-marketing/output/review-verdict.md"
+    on_reject: 3
+
+  - step: 8
+    name: "aprovacao-final"
+    file: "steps/step-08-final-approval.md"
+    type: checkpoint
+
+  - step: 9
+    name: "envio-campanha"
+    file: "steps/step-09-send.md"
+    agent: "squads/email-marketing/agents/eduardo-envio"
+    execution: inline
+    input_file: "squads/email-marketing/output/email-copy.md"
+    output_file: "squads/email-marketing/output/send-confirmation.md"
+
+  - step: 10
+    name: "analytics-resultados"
+    file: "steps/step-10-analytics.md"
+    agent: "squads/email-marketing/agents/andre-analytics"
+    execution: subagent
+    model_tier: powerful
+    input_file: "squads/email-marketing/output/send-confirmation.md"
+    output_file: "squads/email-marketing/output/analytics-report.md"
+
+checkpoints:
+  - step: 1
+    name: "briefing-campanha"
+  - step: 4
+    name: "aprovar-copy"
+  - step: 6
+    name: "aprovar-visual"
+  - step: 8
+    name: "aprovacao-final"

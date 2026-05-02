@@ -1,0 +1,43 @@
+squad_code: "financial-health"
+purpose: "Diagnóstico financeiro completo da operação — analisa Receita, Custos e Margem a partir de planilha ou CSV para gerar diagnóstico real, identificar riscos e recomendar ações priorizadas. Inclui análise de lucro real, margem por produto/canal, CAC vs LTV, ponto de equilíbrio, vazamentos financeiros, capacidade de escala, projeção de caixa 30–90 dias e impacto logístico."
+domain: "analysis"
+
+company:
+  name: "Barns Western"
+  tone: "Informal, descontraído e aspiracional — foco em lucratividade e crescimento sustentável"
+  products: "Acessórios country/western: óculos UV400, cintos, braceletes, bonés, calçados, canivetes, palmilhas, colares"
+
+language: "Português (Brasil)"
+
+context:
+  data_sources: "Planilha ou CSV enviado pelo usuário a cada rodada contendo Receita, Custos e Margem"
+  decisions: |
+    - Onde alocar capital para maximizar lucro (tráfego, estoque, operação)
+    - Se pode escalar com segurança ou precisa estabilizar antes
+    - Quais custos reduzir ou eliminar imediatamente
+    - Nível ideal de investimento em marketing sem comprometer caixa
+    - Quando migrar modelo logístico (estoque Brasil vs dropshipping)
+    - Se a operação está saudável ou mascarando prejuízo
+    - Quanto retirar ou reinvestir sem comprometer crescimento
+    - Quais áreas destroem margem (logística, suporte, taxas, etc.)
+  output_format: "Relatório prático e objetivo em Markdown com tabelas e representações visuais (ASCII charts, barras de progresso) quando necessário para facilitar compreensão"
+  outputs_expected: |
+    - Lucro real da operação (não apenas faturamento)
+    - Margem por produto e por canal
+    - CAC vs LTV (crescimento com lucro ou prejuízo)
+    - Ponto de equilíbrio da operação
+    - Principais vazamentos financeiros
+    - Capacidade atual de escala (segura ou arriscada)
+    - Projeção de caixa para os próximos 30–90 dias
+    - Impacto financeiro dos problemas logísticos atuais
+
+tools_needed:
+  - "CSV/file reading (built-in)"
+  - "Data analysis and calculation (built-in)"
+  - "Markdown report generation (built-in)"
+
+investigation:
+  enabled: false
+  profiles: []
+
+target_formats: []

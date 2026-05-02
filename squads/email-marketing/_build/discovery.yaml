@@ -1,0 +1,40 @@
+squad_code: "email-marketing"
+purpose: >
+  Squad especialista em e-mail marketing para e-commerce da Barns Western.
+  Responsável por estratégia, copywriting, criação de imagens com IA, envio
+  real via Resend e análise de resultados de campanhas. Input: lista de
+  clientes e histórico de compras. Output: campanhas de e-mail e fluxos
+  automatizados. Foco em maximizar vendas e conversão contínua.
+domain: "mixed"
+
+company:
+  name: "Barns Western"
+  tone: "Informal, descontraído e aspiracional — estilo country/western brasileiro"
+  products: "Óculos UV400, cintos, fivelas, braceletes, correntes, bonés, calçados, canivetes, palmilhas, colares e acessórios country/western"
+
+language: "Português (Brasil)"
+
+context:
+  audience: "Segmentado — clientes que já compraram (recompra, upsell, fidelização) e leads que não compraram (conversão)"
+  email_types:
+    - "Boas-vindas (novos cadastros)"
+    - "Recompra e upsell (produtos complementares)"
+    - "Abandono de carrinho (recuperação)"
+    - "Campanhas promocionais ativas (promoções, lançamentos, datas especiais)"
+  tone: "Especialista em e-mail marketing para e-commerce, alinhado à identidade Barns Western (informal, country/western, foco em urgência e conversão)"
+  focus: "Maximizar vendas e conversão — cada e-mail deve ter CTA claro, senso de urgência e relevância para o segmento"
+  includes_images: true
+  includes_analytics: true
+
+tools_needed:
+  - "resend"
+  - "image-ai-generator"
+  - "web_search"
+  - "web_fetch"
+
+investigation:
+  enabled: false
+  profiles: []
+
+target_formats:
+  - "email-sales"

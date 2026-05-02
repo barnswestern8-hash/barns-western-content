@@ -1,0 +1,4 @@
+id,name,title,icon,execution,path
+felipe-financeiro,Felipe Financeiro,Analista de Dados Financeiros,📊,inline,./agents/felipe-financeiro.agent.md
+gustavo-gestor,Gustavo Gestor,Estrategista Financeiro,💼,inline,./agents/gustavo-gestor.agent.md
+renata-revisao,Renata Revisão,Revisora de Diagnóstico,🔍,inline,./agents/renata-revisao.agent.md

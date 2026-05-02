@@ -1,0 +1,35 @@
+name: "Ad Creative Architect"
+code: "ad-creative-architect"
+description: "Gera criativos publicitários de alta conversão para Meta Ads e TikTok Ads, baseados em psicologia do consumidor e buyer personas"
+icon: "🎯"
+version: "1.0.0"
+
+skills:
+  - web_search
+  - web_fetch
+  - image-ai-generator
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+  - pipeline/data/buyer-personas.md
+  - pipeline/data/brand-identity.md
+  - pipeline/data/brand-strategy.md
+  - pipeline/data/axoly-creative-reference.md
+
+pipeline: pipeline/pipeline.yaml
+party: squad-party.csv
+
+memory:
+  - _memory/memories.md
+  - _memory/runs.md
+
+investigation:
+  enriched: true
+  profiles_analyzed: 1
+  date: "2026-04-30"
+  dir: "_investigations"

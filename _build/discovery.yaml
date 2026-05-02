@@ -1,42 +1,33 @@
-squad_code: "barns-western-content"
-purpose: "Criar conteúdo para redes sociais da Barns Western — posts, Reels e Stories que reflitam o estilo country/western da marca"
+squad_code: "ad-creative-architect"
+purpose: "Gerar criativos publicitários de alta conversão para Meta Ads e TikTok Ads, baseados em psicologia do consumidor, buyer personas e contexto de produto."
 domain: "content"
 
 company:
   name: "Barns Western"
-  tone: "Informal, descontraído e aspiracional — com identidade firme, autêntica, direta, confiante e respeitosa"
-  products: "Óculos solares UV400, cintos, fivelas, braceletes de cobre, bonés, calçados, canivetes, correntes, pulseiras e colares"
+  tone: "Informal, descontraído e aspiracional — estilo, proteção e exclusividade"
+  products: "Óculos UV400, cintos, fivelas, bonés, calçados, braceletes, correntes, canivetes, palmilhas ortopédicas, acessórios country/western"
 
 language: "Português (Brasil)"
 
 context:
-  audience: "Ambos — clientes atuais (fidelização) e novos clientes em potencial (atração e conversão)"
-  platforms: "Instagram (Feed, Reels, Stories) — principal; TikTok e outros secundários"
-  tone: "Firme. Autêntico. Direto. Confiante. Respeitoso."
+  audience: "Fãs de estilo country/western — homens e mulheres que valorizam autenticidade, identidade e presença"
+  platforms: "Meta Ads + TikTok Ads"
+  tone: "Persuasivo, psicológico, adaptado por persona — nunca genérico"
+  personas: "Base existentes + squad pode inferir ou priorizar personas com base no produto"
+  operation_modes:
+    - mode: "produto"
+      description: "Identificar automaticamente as personas mais compatíveis, priorizar dores ligadas ao produto, focar em conversão direta"
+    - mode: "persona"
+      description: "Aprofundar psicologia, adaptar linguagem e abordagem, criar criativos altamente personalizados"
 
 tools_needed:
-  - "instagram-publisher"
-  - "image-creator"
   - "image-ai-generator"
   - "template-designer"
-  - "blotato"
 
 investigation:
   enabled: true
   profiles:
-    - url: "https://www.instagram.com/bexsunglasses/?hl=pt-br"
-      platform: "instagram"
-      investigation_mode: "profile_3"
-    - url: "https://www.instagram.com/pbr/?hl=pt-br"
-      platform: "instagram"
-      investigation_mode: "profile_3"
-    - url: "https://www.instagram.com/tecovas/?hl=pt-br"
-      platform: "instagram"
-      investigation_mode: "profile_3"
-    - url: "https://www.instagram.com/barns.western/?hl=pt-br"
-      platform: "instagram"
-      investigation_mode: "profile_3"
-    - url: "https://www.instagram.com/ariatinternational/?hl=pt-br"
+    - url: "instagram.com/barns.western"
       platform: "instagram"
       investigation_mode: "profile_3"
 
@@ -44,3 +35,31 @@ target_formats:
   - "instagram-feed"
   - "instagram-reels"
   - "instagram-stories"
+
+pipeline_stages:
+  - step: 1
+    name: "Leitura Psicológica da Persona"
+    details: "Nível de consciência (frio/morno/quente), estado emocional, trava principal de compra, gatilho dominante (Segurança/Status/Pertencimento/Praticidade/Custo-benefício/Novidade)"
+  - step: 2
+    name: "Tradução Estratégica"
+    details: "Ângulo principal, promessa central, tipo de abordagem (direta/emocional/racional/aspiracional)"
+  - step: 3
+    name: "Matriz Dor × Solução"
+    details: "Dores reais em linguagem do cliente, soluções conectadas ao produto"
+  - step: 4
+    name: "Definição de Hipóteses Criativas"
+    details: "Mínimo 3 ângulos por dor, variando abordagem (emocional/prova/lógica), definindo mecanismo de conversão"
+  - step: 5
+    name: "Geração de Criativos por Pilar"
+    details: "Ângulos, Conceitos, DSB (Dor→Solução→Benefício), Full Funnel (Topo/Meio/Fundo) — múltiplas variações"
+  - step: 6
+    name: "Protocolo Visual"
+    details: "Cenário, ambiente, perfil do modelo, posição do produto, iluminação, direção da luz, textura, enquadramento, profundidade de campo, estilo fotográfico, paleta, emoção — item obrigatório, se faltar algum o criativo é inválido"
+  - step: 7
+    name: "Adaptação por Plataforma"
+    details: "Meta Ads: direto, informativo, prova. TikTok Ads: emocional, natural, UGC/lifestyle"
+  - step: 8
+    name: "Validação de Performance"
+    details: "Checklist — scroll stop? Dor clara? Reduz objeção? Comunicação clara? Parece anúncio que venderia? Se não cumprir → ajustar"
+
+principle: "Cada criativo é uma hipótese de conversão a ser testada"

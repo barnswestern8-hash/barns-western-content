@@ -1,0 +1,47 @@
+name: "Pipeline — Previsão de Demanda Barns Western"
+version: "1.0.0"
+
+steps:
+  - step: 1
+    name: fornecer-dados
+    file: steps/step-01-fornecer-dados.md
+    type: checkpoint
+    output_file: squads/demand-forecast/output/data-input.md
+
+  - step: 2
+    name: processar-dados
+    file: steps/step-02-processar-dados.md
+    type: agent
+    agent: ana-analitica
+    execution: subagent
+    input_file: squads/demand-forecast/output/data-input.md
+    output_file: squads/demand-forecast/output/analise-dados.md
+    model_tier: powerful
+
+  - step: 3
+    name: gerar-previsao
+    file: steps/step-03-gerar-previsao.md
+    type: agent
+    agent: paulo-previsao
+    execution: inline
+    input_file: squads/demand-forecast/output/analise-dados.md
+    output_file: squads/demand-forecast/output/previsao-estoque.csv
+
+  - step: 4
+    name: revisar-relatorio
+    file: steps/step-04-revisar-relatorio.md
+    type: agent
+    agent: rita-revisao
+    execution: inline
+    input_file: squads/demand-forecast/output/previsao-estoque.csv
+    output_file: squads/demand-forecast/output/revisao-final.md
+    on_reject: 3
+
+  - step: 5
+    name: aprovacao-final
+    file: steps/step-05-aprovacao-final.md
+    type: checkpoint
+
+checkpoints:
+  - step: 1
+  - step: 5

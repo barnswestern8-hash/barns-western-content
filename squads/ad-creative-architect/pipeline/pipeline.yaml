@@ -1,0 +1,100 @@
+name: "Ad Creative Architect Pipeline"
+version: "1.0.0"
+description: "Pipeline de 9 etapas para geração de criativos de alta conversão — do diagnóstico psicológico ao veredito de performance"
+
+principle: "Cada criativo é uma hipótese de conversão a ser testada"
+
+steps:
+  - step: 1
+    name: "input-context"
+    label: "Input & Contexto"
+    type: "checkpoint"
+    file: "steps/step-01-input-context.md"
+    description: "Coleta produto, persona e modo de operação via checkpoint com o usuário"
+
+  - step: 2
+    name: "psychological-reading"
+    label: "Leitura Psicológica"
+    type: "agent"
+    agent: "paula-psicologa"
+    execution: "inline"
+    file: "steps/step-02-psychological-reading.md"
+    outputFile: "output/psychological-reading.md"
+    description: "Paula diagnostica nível de consciência, estado emocional, trava de compra e gatilho dominante"
+
+  - step: 3
+    name: "pain-matrix-hypotheses"
+    label: "Matriz Dor × Solução + Hipóteses"
+    type: "agent"
+    agent: "artur-angulo"
+    execution: "inline"
+    file: "steps/step-03-pain-matrix-hypotheses.md"
+    inputFile: "output/psychological-reading.md"
+    outputFile: "output/pain-matrix-hypotheses.md"
+    description: "Artur constrói a Matriz Dor × Solução e gera mínimo 3 hipóteses de ângulo por dor"
+
+  - step: 4
+    name: "angle-selection"
+    label: "Seleção de Ângulos"
+    type: "checkpoint"
+    file: "steps/step-04-angle-selection.md"
+    description: "Usuário revisa hipóteses de Artur e seleciona ângulos para produção criativa"
+
+  - step: 5
+    name: "creative-generation"
+    label: "Geração de Criativos"
+    type: "agent"
+    agent: "carlos-criativo"
+    execution: "inline"
+    file: "steps/step-05-creative-generation.md"
+    inputFile: "output/pain-matrix-hypotheses.md"
+    outputFile: "output/creatives.md"
+    description: "Carlos gera criativos completos por pilar e plataforma para os ângulos selecionados"
+
+  - step: 6
+    name: "content-approval"
+    label: "Aprovação de Conteúdo"
+    type: "checkpoint"
+    file: "steps/step-06-content-approval.md"
+    description: "Usuário revisa criativos de Carlos e aprova quais avançam para protocolo visual"
+
+  - step: 7
+    name: "visual-protocol"
+    label: "Protocolo Visual"
+    type: "agent"
+    agent: "diego-diretor"
+    execution: "inline"
+    file: "steps/step-07-visual-protocol.md"
+    inputFile: "output/creatives.md"
+    outputFile: "output/visual-protocol.md"
+    description: "Diego cria protocolo visual 12 campos + prompt IA para cada criativo aprovado"
+
+  - step: 8
+    name: "performance-validation"
+    label: "Validação de Performance"
+    type: "agent"
+    agent: "vera-veredito"
+    execution: "inline"
+    file: "steps/step-08-performance-validation.md"
+    inputFile: "output/visual-protocol.md"
+    outputFile: "output/validation-report.md"
+    on_reject: 5
+    description: "Vera avalia 5 critérios de performance e emite APROVAR ou REJEITAR com fixes obrigatórios"
+
+  - step: 9
+    name: "final-approval"
+    label: "Aprovação Final"
+    type: "checkpoint"
+    file: "steps/step-09-final-approval.md"
+    description: "Apresentação dos criativos aprovados, exportação de assets e registro do run"
+
+modes:
+  produto:
+    description: "Modo Produto — o squad parte do produto e identifica personas compatíveis automaticamente"
+    entry_step: 1
+    checkpoint_1_focus: "produto"
+
+  persona:
+    description: "Modo Persona — análise profunda de uma persona específica com todos os 4 diagnósticos"
+    entry_step: 1
+    checkpoint_1_focus: "persona"

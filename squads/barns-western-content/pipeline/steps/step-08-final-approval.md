@@ -1,37 +1,42 @@
 ---
-type: checkpoint
+type: automatic
 ---
 
-# Step 8: Final Approval
+# Step 8: Auto-Publicação
 
-Checkpoint final antes da publicação. Vera Veredito emitiu seu veredicto no Step 7. O usuário decide se aprova o conteúdo para publicação ou solicita mais ajustes.
+Este step é executado automaticamente. Não há interação do usuário.
 
-## Para o usuário
+## Instruções para Vera Veredito
 
-Vera Veredito concluiu a revisão formal. O relatório está em `output/review-report.md`.
+Você acabou de emitir o veredicto no Step 7. Agora execute a publicação automaticamente:
 
----
+### Se o veredicto foi APROVAR ou APROVAR CONDICIONAL:
 
-**Se o veredicto foi APROVAR ou APROVAR CONDICIONAL:**
+1. Use a skill `instagram-publisher` para publicar o Feed no Instagram
+2. Carregue o conteúdo de `output/feed-post.md`
+3. Publique via Graph API do Instagram
+4. Registre o resultado em `_memory/runs.md` com:
+   - Data e hora da publicação
+   - Produto postado
+   - Tipo de post
+   - Ângulo usado
+   - Status: PUBLICADO
 
-O conteúdo está pronto para publicação. Você pode:
+### Se o veredicto foi REJEITAR:
 
-- **Publicar agora** — use a skill `instagram-publisher` para publicar o Feed diretamente via Graph API
-- **Salvar para publicar depois** — os arquivos ficam em `output/` para publicação manual
-- **Aplicar sugestões não-bloqueantes** — se Vera listou sugestões opcionais, você pode aplicá-las antes de publicar
+O pipeline já retornou ao Step 4 automaticamente. Após a reescrita, a revisão (Step 7) acontecerá novamente. Se após 2 ciclos de rejeição o conteúdo ainda não for aprovado, registre em `_memory/runs.md` com status: FALHOU e encerre o run.
 
-**Se o veredicto foi REJEITAR:**
+### Output obrigatório
 
-O pipeline retornou ao Step 4. Fernanda Feed está reescrevendo o conteúdo com as mudanças obrigatórias indicadas por Vera. O próximo ciclo de revisão (Step 7) acontecerá automaticamente após a reescrita.
+Após a publicação (ou falha), salve um resumo em `output/run-summary.md`:
 
----
+```
+# Resumo do Run — [DATA]
 
-**Para publicar o Feed via Graph API:**
-
-Informe: "publicar o Feed" — a skill `instagram-publisher` carregará `feed-post.md`, fará upload da imagem via imgBB e publicará via API do Instagram.
-
-**Arquivos finais do run:**
-- Feed: `output/feed-post.md`
-- Reels: `output/reel-script.md`
-- Stories: `output/stories-sequence.md`
-- Revisão: `output/review-report.md`
+**Status:** [PUBLICADO / FALHOU]
+**Produto:** [produto]
+**Tipo de post:** [tipo]
+**Ângulo:** [ângulo usado]
+**Publicado em:** [data/hora]
+**URL do post:** [se disponível]
+```

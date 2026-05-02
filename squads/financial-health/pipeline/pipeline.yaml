@@ -1,0 +1,36 @@
+pipeline:
+  name: "Squad de Saúde Financeira — Pipeline Principal"
+  squad: "financial-health"
+  version: "1.0.0"
+
+  mode: automatic
+
+  steps:
+    - step: 1
+      name: "upload-dados"
+      file: "pipeline/steps/step-01-upload-dados.md"
+      type: checkpoint
+
+    - step: 2
+      name: "analise-financeira"
+      file: "pipeline/steps/step-02-analise-financeira.md"
+      agent: "felipe-financeiro"
+      execution: inline
+
+    - step: 3
+      name: "diagnostico-estrategico"
+      file: "pipeline/steps/step-03-diagnostico-estrategico.md"
+      agent: "gustavo-gestor"
+      execution: inline
+
+    - step: 4
+      name: "revisao"
+      file: "pipeline/steps/step-04-revisao.md"
+      agent: "renata-revisao"
+      execution: inline
+      on_reject: 3
+
+    - step: 5
+      name: "aprovacao-final"
+      file: "pipeline/steps/step-05-aprovacao-final.md"
+      type: checkpoint

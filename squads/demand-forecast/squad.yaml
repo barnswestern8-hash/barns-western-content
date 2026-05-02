@@ -1,0 +1,31 @@
+name: "Previsão de Demanda — Barns Western"
+code: demand-forecast
+description: "Analisa relatórios de vendas e estoque do Shopify para gerar previsão de demanda (30/60/90 dias), sugestão de compra de estoque e identificação de produtos com potencial de escala."
+icon: 📈
+version: "1.0.0"
+language: "Português (Brasil)"
+
+agents:
+  - id: ana-analitica
+    name: Ana Analítica
+    file: ./agents/ana-analitica.agent.md
+  - id: paulo-previsao
+    name: Paulo Previsão
+    file: ./agents/paulo-previsao.agent.md
+  - id: rita-revisao
+    name: Rita Revisão
+    file: ./agents/rita-revisao.agent.md
+
+pipeline:
+  file: ./pipeline/pipeline.yaml
+
+skills:
+  - web_search
+  - web_fetch
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md

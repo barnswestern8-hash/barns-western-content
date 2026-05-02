@@ -1,0 +1,7 @@
+id,name,title,icon,execution,path
+squads/email-marketing/agents/sofia-segmentos,Sofia Segmentos,Estrategista de Campanhas,📊,inline,./agents/sofia-segmentos.agent.md
+squads/email-marketing/agents/carlos-conversao,Carlos Conversão,Copywriter de Email,✍️,inline,./agents/carlos-conversao.agent.md
+squads/email-marketing/agents/beatriz-banner,Beatriz Banner,Designer Visual IA,🎨,subagent,./agents/beatriz-banner.agent.md
+squads/email-marketing/agents/roberto-revisao,Roberto Revisão,Revisor de Qualidade,🔍,inline,./agents/roberto-revisao.agent.md
+squads/email-marketing/agents/eduardo-envio,Eduardo Envio,Executor de Envio,📤,inline,./agents/eduardo-envio.agent.md
+squads/email-marketing/agents/andre-analytics,André Analytics,Analista de Resultados,📈,subagent,./agents/andre-analytics.agent.md

@@ -1,0 +1,4 @@
+id,name,title,icon,execution,path
+ana-analitica,Ana Analítica,Analista de Dados de Vendas,🔍,subagent,./agents/ana-analitica.agent.md
+paulo-previsao,Paulo Previsão,Planejador de Demanda e Estoque,📈,inline,./agents/paulo-previsao.agent.md
+rita-revisao,Rita Revisão,Revisora de Qualidade Analítica,✅,inline,./agents/rita-revisao.agent.md

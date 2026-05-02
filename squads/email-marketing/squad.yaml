@@ -1,0 +1,32 @@
+name: "Email Marketing Squad"
+code: "email-marketing"
+description: "Squad de e-mail marketing para e-commerce da Barns Western. Produz campanhas de e-mail com copy, banner com IA, envio via Resend e análise de resultados para maximizar vendas e conversão."
+version: "1.0.0"
+
+skills:
+  - web_search
+  - web_fetch
+  - resend
+  - image-ai-generator
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+
+agents:
+  - agents/sofia-segmentos.agent.md
+  - agents/carlos-conversao.agent.md
+  - agents/beatriz-banner.agent.md
+  - agents/roberto-revisao.agent.md
+  - agents/eduardo-envio.agent.md
+  - agents/andre-analytics.agent.md
+
+pipeline: pipeline/pipeline.yaml
+
+memory:
+  - _memory/memories.md
+  - _memory/runs.md

@@ -1,0 +1,143 @@
+squad:
+  code: "ad-creative-architect"
+  name: "Ad Creative Architect"
+  description: "Gera criativos publicitários de alta conversão para Meta Ads e TikTok Ads, baseados em psicologia do consumidor e buyer personas"
+
+agents:
+  - id: "paula-psicologa"
+    name: "Paula Psicóloga"
+    title: "Persona Psychologist"
+    icon: "🧠"
+    execution: "inline"
+    role_summary: "Lê buyer personas, diagnostica estado psicológico, nível de consciência e gatilho dominante. Traduz em direção estratégica."
+    skills: []
+    tasks:
+      - name: "psychological-reading"
+        file: "tasks/psychological-reading.md"
+        description: "Diagnóstico psicológico completo da persona"
+      - name: "strategic-translation"
+        file: "tasks/strategic-translation.md"
+        description: "Tradução do diagnóstico em direção estratégica criativa"
+
+  - id: "artur-angulo"
+    name: "Artur Ângulo"
+    title: "Creative Hypotheses Architect"
+    icon: "💡"
+    execution: "inline"
+    role_summary: "Constrói Matriz Dor x Solução e gera hipóteses criativas com mínimo 3 ângulos por dor e mecanismo de conversão definido"
+    skills: []
+    tasks:
+      - name: "pain-matrix"
+        file: "tasks/pain-matrix.md"
+        description: "Mapeamento completo de dores e soluções na linguagem do cliente"
+      - name: "angle-hypotheses"
+        file: "tasks/angle-hypotheses.md"
+        description: "Geração de hipóteses criativas por ângulo e abordagem"
+
+  - id: "carlos-criativo"
+    name: "Carlos Criativo"
+    title: "Creative Writer"
+    icon: "✍️"
+    execution: "inline"
+    role_summary: "Gera criativos completos por pilar e plataforma — Ângulo, Conceito, DSB, Full Funnel — com adaptação Meta Ads vs TikTok Ads"
+    skills: []
+    tasks:
+      - name: "create-creatives"
+        file: "tasks/create-creatives.md"
+        description: "Geração de criativos completos com gancho, headline, copy, mecanismo de conversão e CTA"
+
+  - id: "diego-diretor"
+    name: "Diego Diretor"
+    title: "Visual Director"
+    icon: "🎬"
+    execution: "inline"
+    role_summary: "Cria protocolo visual nível cinema para cada criativo: cenário, modelo, produto, iluminação, enquadramento, paleta, emoção"
+    skills:
+      - "image-ai-generator"
+    tasks:
+      - name: "visual-protocol"
+        file: "tasks/visual-protocol.md"
+        description: "Protocolo visual completo para cada criativo aprovado"
+
+  - id: "vera-veredito"
+    name: "Vera Veredito"
+    title: "Performance Validator"
+    icon: "✅"
+    execution: "inline"
+    role_summary: "Valida criativos contra checklist de 5 critérios de performance e emite APROVAR/REJEITAR com fixes obrigatórios"
+    skills: []
+    tasks:
+      - name: "validate-performance"
+        file: "tasks/validate-performance.md"
+        description: "Validação de performance e emissão de veredito"
+
+pipeline:
+  - step: 1
+    name: "input-context"
+    type: "checkpoint"
+  - step: 2
+    name: "psychological-reading"
+    type: "agent"
+    agent: "paula-psicologa"
+    execution: "inline"
+    outputFile: "squads/ad-creative-architect/output/psychological-reading.md"
+  - step: 3
+    name: "pain-matrix-hypotheses"
+    type: "agent"
+    agent: "artur-angulo"
+    execution: "inline"
+    inputFile: "squads/ad-creative-architect/output/psychological-reading.md"
+    outputFile: "squads/ad-creative-architect/output/pain-matrix-hypotheses.md"
+  - step: 4
+    name: "angle-selection"
+    type: "checkpoint"
+  - step: 5
+    name: "creative-generation"
+    type: "agent"
+    agent: "carlos-criativo"
+    execution: "inline"
+    inputFile: "squads/ad-creative-architect/output/pain-matrix-hypotheses.md"
+    outputFile: "squads/ad-creative-architect/output/creatives.md"
+  - step: 6
+    name: "content-approval"
+    type: "checkpoint"
+  - step: 7
+    name: "visual-protocol"
+    type: "agent"
+    agent: "diego-diretor"
+    execution: "inline"
+    inputFile: "squads/ad-creative-architect/output/creatives.md"
+    outputFile: "squads/ad-creative-architect/output/visual-protocol.md"
+  - step: 8
+    name: "performance-validation"
+    type: "agent"
+    agent: "vera-veredito"
+    execution: "inline"
+    inputFile: "squads/ad-creative-architect/output/visual-protocol.md"
+    outputFile: "squads/ad-creative-architect/output/validation-report.md"
+    on_reject: 5
+  - step: 9
+    name: "final-approval"
+    type: "checkpoint"
+
+investigation:
+  enriched: true
+  profiles_analyzed: 1
+  date: "2026-04-30"
+  dir: "squads/ad-creative-architect/_investigations"
+
+skills_installed:
+  - "web_search"
+  - "web_fetch"
+  - "image-ai-generator"
+
+formats_selected:
+  - "instagram-feed"
+  - "instagram-reels"
+  - "instagram-stories"
+
+best_practices_consulted:
+  - "copywriting.md"
+  - "review.md"
+  - "image-design.md"
+  - "strategist.md"

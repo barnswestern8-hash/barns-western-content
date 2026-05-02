@@ -1,0 +1,51 @@
+{
+  "squad": "ad-creative-architect",
+  "status": "completed",
+  "step": { "current": 9, "total": 9, "label": "Aprovação Final" },
+  "agents": [
+    {
+      "id": "paula-psicologa",
+      "name": "Paula Psicóloga",
+      "icon": "🧠",
+      "status": "done",
+      "desk": { "col": 1, "row": 1 }
+    },
+    {
+      "id": "artur-angulo",
+      "name": "Artur Ângulo",
+      "icon": "💡",
+      "status": "done",
+      "desk": { "col": 2, "row": 1 }
+    },
+    {
+      "id": "carlos-criativo",
+      "name": "Carlos Criativo",
+      "icon": "✍️",
+      "status": "done",
+      "desk": { "col": 3, "row": 1 }
+    },
+    {
+      "id": "diego-diretor",
+      "name": "Diego Diretor",
+      "icon": "🎬",
+      "status": "done",
+      "desk": { "col": 1, "row": 2 }
+    },
+    {
+      "id": "vera-veredito",
+      "name": "Vera Veredito",
+      "icon": "✅",
+      "status": "done",
+      "desk": { "col": 2, "row": 2 }
+    }
+  ],
+  "handoff": {
+    "from": "vera-veredito",
+    "to": "checkpoint-final",
+    "message": "9/9 criativos aprovados. Score médio 8.0. Run encerrado com sucesso.",
+    "completedAt": "2026-04-30T18:46:00.000Z"
+  },
+  "startedAt": "2026-04-30T18:16:01.000Z",
+  "completedAt": "2026-04-30T18:46:00.000Z",
+  "updatedAt": "2026-04-30T18:46:00.000Z"
+}

@@ -1,0 +1,6 @@
+id,name,title,icon,execution,path
+paula-psicologa,Paula Psicóloga,Persona Psychologist,🧠,inline,./agents/paula-psicologa.agent.md
+artur-angulo,Artur Ângulo,Creative Hypotheses Architect,💡,inline,./agents/artur-angulo.agent.md
+carlos-criativo,Carlos Criativo,Creative Writer,✍️,inline,./agents/carlos-criativo.agent.md
+diego-diretor,Diego Diretor,Visual Director,🎬,inline,./agents/diego-diretor.agent.md
+vera-veredito,Vera Veredito,Performance Validator,✅,inline,./agents/vera-veredito.agent.md

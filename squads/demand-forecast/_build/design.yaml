@@ -1,0 +1,91 @@
+squad:
+  code: "demand-forecast"
+  name: "Previsão de Demanda — Barns Western"
+  description: "Analisa exportações de vendas do e-commerce para gerar previsão de demanda (30/60/90 dias), sugestão de compra de estoque e identificação de produtos com potencial de escala."
+
+agents:
+  - id: "squads/demand-forecast/agents/ana-analitica"
+    name: "Ana Analítica"
+    title: "Analista de Dados de Vendas"
+    icon: "🔍"
+    execution: "subagent"
+    role_summary: "Processa arquivo de exportação de vendas, classifica produtos por Curva ABC, detecta tendências e sazonalidade, e calcula velocidade de venda por SKU."
+    skills: []
+    tasks:
+      - name: "process-sales-data"
+        file: "tasks/process-sales-data.md"
+        description: "Lê o CSV de vendas, limpa os dados, aplica classificação ABC e gera relatório analítico estruturado."
+
+  - id: "squads/demand-forecast/agents/paulo-previsao"
+    name: "Paulo Previsão"
+    title: "Planejador de Demanda e Estoque"
+    icon: "📈"
+    execution: "inline"
+    role_summary: "Transforma os dados analisados em previsão de vendas (30/60/90 dias), sugestão de compra por produto e identificação de itens com potencial de escala."
+    skills: []
+    tasks:
+      - name: "generate-forecast"
+        file: "tasks/generate-forecast.md"
+        description: "Projeta demanda futura, calcula quantidades de reposição e monta relatório CSV estruturado para Google Sheets."
+
+  - id: "squads/demand-forecast/agents/rita-revisao"
+    name: "Rita Revisão"
+    title: "Revisora de Qualidade Analítica"
+    icon: "✅"
+    execution: "inline"
+    role_summary: "Valida se previsões são embasadas, recomendações são acionáveis, dados estão consistentes e o CSV está pronto para entrega."
+    skills: []
+
+pipeline:
+  - step: 1
+    name: "fornecer-dados"
+    type: "checkpoint"
+    output_file: "squads/demand-forecast/output/data-input.md"
+
+  - step: 2
+    name: "processar-dados"
+    type: "agent"
+    agent: "squads/demand-forecast/agents/ana-analitica"
+    execution: "subagent"
+    input_file: "squads/demand-forecast/output/data-input.md"
+    output_file: "squads/demand-forecast/output/analise-dados.md"
+    model_tier: "powerful"
+
+  - step: 3
+    name: "gerar-previsao"
+    type: "agent"
+    agent: "squads/demand-forecast/agents/paulo-previsao"
+    execution: "inline"
+    input_file: "squads/demand-forecast/output/analise-dados.md"
+    output_file: "squads/demand-forecast/output/previsao-estoque.csv"
+
+  - step: 4
+    name: "revisar-relatorio"
+    type: "agent"
+    agent: "squads/demand-forecast/agents/rita-revisao"
+    execution: "inline"
+    input_file: "squads/demand-forecast/output/previsao-estoque.csv"
+    output_file: "squads/demand-forecast/output/revisao-final.md"
+    on_reject: 3
+
+  - step: 5
+    name: "aprovacao-final"
+    type: "checkpoint"
+
+investigation:
+  enabled: false
+
+research_brief: |
+  Frameworks principais: ABC Classification, Moving Average, Exponential Smoothing,
+  Seasonality Index, Days of Inventory Outstanding (DIO), Reorder Point.
+  Fontes: prediko.io, easyreplenish.com, algonomy.com, nuvemshop.com.br, totvs.com.
+
+skills_installed:
+  - "web_search"
+  - "web_fetch"
+
+formats_selected: []
+
+best_practices_consulted:
+  - "data-analysis.md"
+  - "review.md"

@@ -1,0 +1,34 @@
+squad:
+  code: "financial-health"
+  name: "Squad de Saúde Financeira"
+  description: "Analisa Receita, Custos e Margem a partir de planilha ou CSV para gerar diagnóstico financeiro completo, identificar riscos e recomendar ações priorizadas"
+  version: "1.0.0"
+  created: "2026-04-30"
+
+skills:
+  - web_search
+  - web_fetch
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+
+pipeline: pipeline/pipeline.yaml
+
+agents:
+  - id: "felipe-financeiro"
+    file: "agents/felipe-financeiro.agent.md"
+  - id: "gustavo-gestor"
+    file: "agents/gustavo-gestor.agent.md"
+  - id: "renata-revisao"
+    file: "agents/renata-revisao.agent.md"
+
+memory:
+  squad: "_memory/memories.md"
+  runs: "_memory/runs.md"
+  company: "_opensquad/_memory/company.md"
+
+output_dir: "output/"

@@ -3,11 +3,14 @@ pipeline:
   squad: "barns-western-content"
   version: "1.0.0"
 
+  mode: automatic
+
   steps:
     - step: 1
-      name: "briefing"
+      name: "auto-briefing"
       file: "pipeline/steps/step-01-briefing.md"
-      type: checkpoint
+      agent: "iago-ideia"
+      execution: inline
 
     - step: 2
       name: "generate-angles"
@@ -16,9 +19,10 @@ pipeline:
       execution: inline
 
     - step: 3
-      name: "angle-selection"
+      name: "auto-angle-selection"
       file: "pipeline/steps/step-03-angle-selection.md"
-      type: checkpoint
+      agent: "iago-ideia"
+      execution: inline
 
     - step: 4
       name: "create-feed"
@@ -41,9 +45,10 @@ pipeline:
           format: instagram-stories
 
     - step: 6
-      name: "content-approval"
+      name: "auto-content-approval"
       file: "pipeline/steps/step-06-content-approval.md"
-      type: checkpoint
+      agent: "vera-veredito"
+      execution: inline
 
     - step: 7
       name: "review"
@@ -53,23 +58,10 @@ pipeline:
       on_reject: 4
 
     - step: 8
-      name: "final-approval"
+      name: "auto-publish"
       file: "pipeline/steps/step-08-final-approval.md"
-      type: checkpoint
-
-  checkpoints:
-    - step: 1
-      name: "briefing"
-      description: "Usuário preenche o briefing do run (produto, tipo de post, mensagem)"
-    - step: 3
-      name: "angle-selection"
-      description: "Usuário escolhe um dos 5 ângulos gerados por Iago"
-    - step: 6
-      name: "content-approval"
-      description: "Usuário revisa Feed + Reels + Stories antes da revisão formal"
-    - step: 8
-      name: "final-approval"
-      description: "Usuário aprova o conteúdo revisado para publicação"
+      agent: "vera-veredito"
+      execution: inline
 
 benchmark_pipeline:
   name: "Barns Western — Benchmark de Referências"
