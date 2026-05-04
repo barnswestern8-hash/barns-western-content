@@ -1,0 +1,58 @@
+﻿pipeline:
+  name: "Barns Western Content — Pipeline Automático (Rascunho Diário)"
+  squad: "social-media"
+  version: "1.0.0"
+  mode: auto
+  description: "Execução diária automática sem checkpoints. Gera conteúdo completo e salva em output/drafts/{date}/ para revisão manual antes de publicar."
+
+  steps:
+    - step: 1
+      name: "auto-briefing"
+      file: "pipeline/steps/step-auto-01-auto-briefing.md"
+      type: auto
+      execution: inline
+
+    - step: 2
+      name: "generate-angles"
+      file: "pipeline/steps/step-02-generate-angles.md"
+      agent: "iago-ideia"
+      execution: inline
+
+    - step: 3
+      name: "auto-angle-selection"
+      file: "pipeline/steps/step-auto-03-auto-angle-selection.md"
+      type: auto
+      execution: inline
+
+    - step: 4
+      name: "create-feed"
+      file: "pipeline/steps/step-04-create-feed.md"
+      agent: "fernanda-feed"
+      execution: subagent
+      format: instagram-feed
+      model_tier: powerful
+
+    - step: 5
+      name: "create-reels-and-stories"
+      file: "pipeline/steps/step-05-create-reels-and-stories.md"
+      execution: subagent
+      parallel: true
+      model_tier: fast
+      agents:
+        - id: "rodrigo-reels"
+          format: instagram-reels
+        - id: "sofia-stories"
+          format: instagram-stories
+
+    - step: 6
+      name: "review"
+      file: "pipeline/steps/step-07-review.md"
+      agent: "vera-veredito"
+      execution: inline
+      on_reject: 4
+
+    - step: 7
+      name: "save-draft"
+      file: "pipeline/steps/step-auto-07-save-draft.md"
+      type: auto
+      execution: inline

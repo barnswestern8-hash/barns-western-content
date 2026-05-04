@@ -161,8 +161,8 @@ Um arquivo `creatives.md` com uma ficha completa por combinação ângulo × pil
 > **Variação A**: [headline A — abordagem direta]
 > **Variação B**: [headline B — abordagem distinta da A, não apenas palavras trocadas]
 
-### Subtítulo
-[Linha complementar que aprofunda ou contextualiza o headline. Máximo 20 palavras. Tom Montserrat Regular — clareza, não impacto.]
+### Subheadline
+[Linha complementar que aprofunda ou contextualiza o headline. Máximo 20 palavras. Montserrat Regular — clareza, não impacto.]
 
 ### Conceito Estratégico
 [Por que este criativo funciona psicologicamente — 2-3 frases explicando o mecanismo de conversão, a emoção ativada e o movimento esperado da persona. Visível para o time, não aparece no anúncio.]
@@ -173,8 +173,15 @@ Um arquivo `creatives.md` com uma ficha completa por combinação ângulo × pil
 - **Narrativa**: [a história que a imagem conta em uma frase — ex: "a persona se olha no espelho comum e se reconhece diferente ao colocar o produto"]
 - **Sensação final**: [o que a persona deve sentir após ver o criativo — ex: "descoberta de que um pequeno detalhe pode mudar toda a autopercepção"]
 
-### Briefing da Arte
-[Parágrafo narrativo completo descrevendo a imagem. Inclui: layout geral (díptico / cena única / produto em foco), quem aparece, o que estão fazendo, ambiente, iluminação, onde o produto está, qual o ponto de foco principal. Específico o suficiente para execução direta — sem perguntas adicionais.]
+### Briefing da Arte / Direção Visual
+- **Cenário**: [descrição física do ambiente ou setup — ex: estúdio clean, campo aberto, rua urbana, arena de rodeio]
+- **Iluminação**: [tipo, qualidade, direção e temperatura da luz — ex: luz natural lateral quente, strobe frontal duro, difusa suave]
+- **Textura Visual**: [materiais, acabamentos e qualidade visual predominantes — ex: couro envelhecido, metal polido, algodão áspero]
+- **Enquadramento da Câmera**: [plano, ângulo, posição relativa ao sujeito — ex: close frontal ao nível dos olhos, plano médio em 3/4]
+- **Posição do Produto**: [localização no frame, ângulo, visibilidade e uso — produto sempre em uso no corpo do modelo, logo Barns sutilmente visível]
+- **Profundidade de Campo**: [foco/desfoque, abertura equivalente — ex: fundo desfocado f/1.8, tudo em foco f/8]
+- **Estilo Fotográfico**: [referência editorial ou estilo — ex: lifestyle campestre, editorial premium, UGC cotidiano]
+- **Paleta de Cores**: [tons dominantes, temperatura, contraste — ex: terrosos quentes com acento dourado, preto e branco com toque #FFBF1A]
 
 ### Checklist de Elementos Visuais
 - [ ] [Elemento principal da cena que comunica a narrativa do ângulo]
@@ -186,25 +193,33 @@ Um arquivo `creatives.md` com uma ficha completa por combinação ângulo × pil
 ### Composição Visual
 - **Zona superior** (X%): [o que ocupa esta zona — headline / elemento de gancho visual]
 - **Zona central** (X%): [o que ocupa esta zona — cena principal com modelo e produto]
-- **Zona inferior** (X%): [o que ocupa esta zona — subtítulo + CTA + logo]
+- **Zona inferior** (X%): [o que ocupa esta zona — subheadline + CTA + logo]
 
 ### Hierarquia Visual
 1. [Elemento de maior peso visual — o foco principal que captura o olhar primeiro]
 2. [Headline — gancho textual de leitura imediata]
 3. [Produto — visibilidade do produto em uso]
-4. [Subtítulo — informação complementar para quem continua lendo]
+4. [Subheadline — informação complementar para quem continua lendo]
 5. [Logo Barns + CTA — ancoragem de marca e próximo passo]
 
 ### Tipografia Sugerida
-- **Headline**: Bebas Neue, Bold — caixa alta, impacto e presença western (identidade Barns)
-- **Subheadline**: Montserrat, Regular — clareza e suporte informativo
+- **Headline**: Bebas Neue Bold como padrão — pode variar conforme personalidade do pilar
+- **Subheadline**: Montserrat Regular como padrão
+- **CTA e corpo**: variam por pilar — ex: Lato para DSB, Poppins para Creator/UGC, Oswald para DNA do Produto, Bebas Neue para Ângulo/Conceito
 
 ### CTA
-[Texto exato do CTA calibrado para o nível de consciência] — Fonte: Bebas Neue, Bold (consistência com headline)
+[Texto exato do CTA calibrado para o nível de consciência] — Fonte: conforme especificado acima por pilar
 
 ### Formato
 **Tipo**: Estático
 **Dimensões**: 1:1 (1080×1080) | 4:5 (1080×1350) | 9:16 (1080×1920) | 16:9 (1920×1080)
+
+### Contexto do Buyer Persona
+- **Nome**: [nome da persona — ex: O Comprador Prático]
+- **Arquétipo**: [ex: Pragmático, Cético, Visionário]
+- **Dor principal endereçada**: [a dor específica que este criativo resolve, em voz da persona]
+- **Motivação central**: [o que a persona quer ganhar ou sentir ao comprar]
+- **Objeção mais comum**: [a razão pela qual a persona hesitaria em clicar]
 
 ---
 
@@ -235,7 +250,7 @@ Um arquivo `creatives.md` com uma ficha completa por combinação ângulo × pil
 ### Headline
 [Frase em primeira pessoa que abre o depoimento — tom de conversa, não de propaganda]
 
-### Subtítulo
+### Subheadline
 [Segunda linha em primeira pessoa — aprofunda o contexto pessoal]
 
 ### Conceito Estratégico
@@ -247,8 +262,15 @@ Um arquivo `creatives.md` com uma ficha completa por combinação ângulo × pil
 - **Narrativa**: [a jornada pessoal contada — antes da descoberta → após]
 - **Sensação final**: [a persona que vê se reconhece e quer a mesma experiência]
 
-### Briefing da Arte
-[Descrição da imagem UGC — parece capturada no cotidiano real, não produzida. Iluminação natural, ambiente da vida real da persona, produto em uso natural. Baixa produção intencional.]
+### Briefing da Arte / Direção Visual
+- **Cenário**: [ambiente cotidiano real da persona — ex: saindo do trabalho, num rodeio, em casa no fim de semana]
+- **Iluminação**: [natural e imperfeita — luz de janela, sol direto, iluminação de evento — sem lighting de estúdio]
+- **Textura Visual**: [materiais visíveis na cena cotidiana — mesa de madeira, parede de tijolo, chão de terra batida]
+- **Enquadramento da Câmera**: [aparência de auto-captação ou câmera de amigo — leve inclinação, plano médio ou close espontâneo]
+- **Posição do Produto**: [integrado ao corpo da pessoa de forma natural — em uso, nunca posado para câmera, logo Barns discretamente visível]
+- **Profundidade de Campo**: [focado no sujeito, fundo levemente desfocado ou com ruído de realidade — não perfeito]
+- **Estilo Fotográfico**: [UGC autêntico — qualidade de smartphone, sem direção de arte aparente, realidade cotidiana]
+- **Paleta de Cores**: [cores naturais do ambiente real — sem tratamento de cor artístico, temperatura fiel à cena]
 
 ### Checklist de Elementos Visuais
 - [ ] Aparência de foto capturada no cotidiano — não editorial
@@ -270,11 +292,12 @@ Um arquivo `creatives.md` com uma ficha completa por combinação ângulo × pil
 5. [Logo — presente, discreto]
 
 ### Tipografia Sugerida
-- **Headline**: Bebas Neue, Bold — ainda dentro da identidade da marca
-- **Subheadline**: Montserrat, Regular
+- **Headline**: Bebas Neue Bold como padrão — mantém identidade da marca mesmo em UGC
+- **Subheadline**: Montserrat Regular
+- **CTA**: Poppins como padrão para Creator/UGC — tom de proximidade, não de broadcast
 
 ### CTA
-[Recomendação pessoal, não ordem de marketing — ex: "se você tá pensando, vai lá e vê" / "vou deixar o link aqui"] — Fonte: Bebas Neue, Bold
+[Recomendação pessoal, não ordem de marketing — ex: "se você tá pensando, vai lá e vê" / "vou deixar o link aqui"] — Fonte: Poppins
 
 ### Formato
 **Tipo**: Estático
@@ -305,7 +328,7 @@ Um arquivo `creatives.md` com uma ficha completa por combinação ângulo × pil
 ### Headline
 [Máximo 5 palavras — técnico, direto, aparece sobre ou abaixo da imagem do produto]
 
-### Subtítulo
+### Subheadline
 [Especificação técnica do elemento — ex: "Lente com proteção UV400 e armação em liga de zinco"]
 
 ### Conceito Estratégico
@@ -317,8 +340,15 @@ Um arquivo `creatives.md` com uma ficha completa por combinação ângulo × pil
 - **Narrativa**: [o produto se justifica por si mesmo pelos seus detalhes]
 - **Sensação final**: [certeza de que a qualidade é real e o preço é justo]
 
-### Briefing da Arte
-[Descrição da imagem de produto — knolling / close técnico / split comparativo. Fundo, posição do produto, ângulo, iluminação de produto. Elemento em destaque nomeado com precisão.]
+### Briefing da Arte / Direção Visual
+- **Cenário**: [setup editorial — ex: knolling em superfície branca, close em fundo de couro, split comparativo em fundo cinza neutro]
+- **Iluminação**: [técnica de produto — ex: ring light suave, luz lateral rasante para textura, difusa de estúdio sem sombra dura]
+- **Textura Visual**: [textura do próprio produto em foco — ex: costura reforçada, lente policarbonato, acabamento acetato matte]
+- **Enquadramento da Câmera**: [câmera alta / plongeé para knolling; macro para close técnico; frontal para split comparativo]
+- **Posição do Produto**: [produto como protagonista absoluto — sem modelo humano; elemento técnico de destaque nomeado explicitamente no campo]
+- **Profundidade de Campo**: [tudo em foco para knolling (f/8+); seletivo para close técnico (f/2.8 no elemento principal)]
+- **Estilo Fotográfico**: [editorial técnico de produto — referência Apple, Tecovas product shot, clean com fundo neutro]
+- **Paleta de Cores**: [fundo neutro (branco, cinza, preto) que isola e valoriza o produto; acento #FFBF1A para detalhe de logo se aplicável]
 
 ### Checklist de Elementos Visuais
 - [ ] Elemento técnico em foco — visível, nítido, sem ambiguidade
@@ -340,11 +370,12 @@ Um arquivo `creatives.md` com uma ficha completa por combinação ângulo × pil
 5. [CTA + Logo — conversão]
 
 ### Tipografia Sugerida
-- **Headline**: Bebas Neue, Bold — caixa alta
-- **Especificação técnica**: Montserrat, SemiBold — dado preciso e legível
+- **Headline**: Bebas Neue Bold — caixa alta, impacto técnico
+- **Subheadline / Especificação técnica**: Montserrat SemiBold — dado preciso e legível
+- **CTA**: Oswald como padrão para DNA do Produto — peso técnico e autoridade
 
 ### CTA
-[Hard CTA — persona em consideração avançada: "Garanta o seu" / "Ver detalhes"] — Fonte: Bebas Neue, Bold
+[Hard CTA — persona em consideração avançada: "Garanta o seu" / "Ver detalhes"] — Fonte: Oswald
 
 ### Formato
 **Tipo**: Estático
@@ -368,15 +399,16 @@ Um arquivo `creatives.md` com uma ficha completa por combinação ângulo × pil
 - [ ] Produto de Referência com URL presente em cada ficha
 - [ ] Headline com mínimo 2 variações (A/B) com abordagens distintas
 - [ ] Headline calibrado para o nível de consciência — frio: sem mencionar produto/marca
-- [ ] Subtítulo complementa o headline sem repeti-lo
+- [ ] Subheadline complementa o headline sem repeti-lo
 - [ ] Conceito Estratégico explica o mecanismo de conversão em 2-3 frases
 - [ ] Direção Criativa com os 4 campos preenchidos (Emoção, Atmosfera, Narrativa, Sensação final)
-- [ ] Briefing da Arte suficientemente detalhado para execução sem perguntas
+- [ ] Briefing da Arte / Direção Visual com todos os 8 sub-campos preenchidos (Cenário, Iluminação, Textura Visual, Enquadramento da Câmera, Posição do Produto, Profundidade de Campo, Estilo Fotográfico, Paleta de Cores)
 - [ ] Checklist de Elementos Visuais com 5 itens específicos para o ângulo
 - [ ] Composição Visual com percentuais das zonas
 - [ ] Hierarquia Visual com 5 elementos ordenados por peso visual
-- [ ] Tipografia: Bebas Neue para headline/CTA, Montserrat para subtítulo (nunca Oswald ou outra fonte)
+- [ ] Tipografia: Headline usa Bebas Neue Bold como padrão (pode variar por pilar); Subheadline usa Montserrat Regular como padrão; CTA e corpo variam por pilar (Lato para DSB, Poppins para Creator/UGC, Oswald para DNA, Bebas Neue para Ângulo/Conceito)
 - [ ] CTA com fonte especificada, calibrado para nível de consciência (soft vs. hard)
+- [ ] Contexto do Buyer Persona preenchido (nome, arquétipo, dor principal, motivação, objeção)
 - [ ] Formato especificado com dimensões
 - [ ] Copy de Corpo Meta: sem adjetivos vagos sem prova adjacente
 - [ ] Adaptação TikTok/Reels: script de fala com marcação de tempo

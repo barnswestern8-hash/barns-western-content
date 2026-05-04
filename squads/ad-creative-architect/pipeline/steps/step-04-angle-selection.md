@@ -38,7 +38,7 @@ Apresentar as hipóteses de Artur ao usuário e coletar a seleção dos ângulos
 ## Instrução de confirmação
 
 Após seleção, confirmar:
-> "Levaremos as hipóteses [X, Y, Z] para Carlos gerar os criativos. Os pilares padrão são: Ângulo, Conceito e DSB. Se quiser o pilar Full Funnel (para audiência quente/muito quente), informe aqui."
+> "Levaremos as hipóteses [X, Y, Z] para Carlos gerar os criativos. Os pilares selecionados no Step 1 para esta rodada são: [pilares selecionados no Step 1]. Quer confirmar ou ajustar antes de avançar?"
 
 ## Output deste step
 

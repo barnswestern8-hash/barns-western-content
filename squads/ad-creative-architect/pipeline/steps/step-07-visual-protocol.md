@@ -16,7 +16,7 @@ outputFile: "output/visual-protocol.md"
 
 ## Objetivo
 
-Expandir o Briefing da Arte de Carlos com especificidade técnica (12 campos) e gerar as imagens diretamente usando a skill `image-ai-generator`. Carlos já entregou a descrição narrativa da imagem — Diego converte essa visão em protocolo técnico executável e gera a imagem com os overlays de texto (Headline em Bebas Neue Bold, Subtítulo em Montserrat Regular, CTA em Bebas Neue Bold, logo Barns). Diego entrega protocolo + imagem gerada, não apenas protocolo + prompt.
+Expandir o Briefing da Arte de Carlos com especificidade técnica (12 campos) e gerar as imagens diretamente usando a skill `image-ai-generator`. Carlos já entregou a descrição narrativa da imagem — Diego converte essa visão em protocolo técnico executável e gera a imagem com os overlays de texto na tipografia especificada por Carlos na ficha (campo Tipografia Sugerida), com logo Barns. Diego entrega protocolo + imagem gerada, não apenas protocolo + prompt.
 
 ## O que Diego executa
 
@@ -42,9 +42,9 @@ Diego executa a task `visual-protocol` para cada criativo aprovado:
 
 - Criativos aprovados no Step 6 (`output/creatives.md`) — com camada visual completa de Carlos:
   - **Briefing da Arte** (narrativa da imagem — ponto de partida dos 12 campos)
-  - **Headline** aprovado (texto que aparece sobre a imagem, Bebas Neue Bold)
-  - **Subtítulo** (Montserrat Regular)
-  - **CTA** com texto exato (Bebas Neue Bold, cor `#FFBF1A`)
+  - **Headline** aprovado (texto que aparece sobre a imagem — fonte conforme especificado por Carlos na ficha)
+  - **Subheadline** (fonte conforme especificado por Carlos na ficha)
+  - **CTA** com texto exato (fonte conforme especificado por Carlos na ficha, cor `#FFBF1A`)
   - **Composição Visual** (zonas do frame)
   - **Formato** de destino (aspect ratio)
 - `output/psychological-reading.md` (emoção-âncora do campo 12 deve servir o gatilho dominante de Paula)

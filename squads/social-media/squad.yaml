@@ -1,0 +1,45 @@
+﻿squad:
+  code: "social-media"
+  name: "Social Media"
+  description: "Cria conteúdo para Instagram (Feed, Reels, Stories) com voz autêntica e identidade firme da marca Barns Western"
+  version: "1.0.0"
+  created: "2026-04-22"
+
+skills:
+  - web_search
+  - web_fetch
+  - image-ai-generator
+  - image-fetcher
+  - instagram-publisher
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+  - pipeline/data/reference-profiles.md
+
+pipeline: pipeline/pipeline.yaml
+
+agents:
+  - id: "iago-ideia"
+    file: "agents/iago-ideia.agent.md"
+  - id: "fernanda-feed"
+    file: "agents/fernanda-feed.agent.md"
+  - id: "rodrigo-reels"
+    file: "agents/rodrigo-reels.agent.md"
+  - id: "sofia-stories"
+    file: "agents/sofia-stories.agent.md"
+  - id: "vera-veredito"
+    file: "agents/vera-veredito.agent.md"
+  - id: "bruno-benchmark"
+    file: "agents/bruno-benchmark.agent.md"
+
+memory:
+  squad: "_memory/memories.md"
+  runs: "_memory/runs.md"
+  company: "_opensquad/_memory/company.md"
+
+output_dir: "output/"

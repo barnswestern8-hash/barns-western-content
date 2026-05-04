@@ -1,426 +1,588 @@
 ---
 id: copywriting
-name: "Copywriting & Persuasive Writing"
+name: "Copywriting Barns Western — Sistema de Copy Estratégico"
 whenToUse: |
-  Creating agents that write persuasive copy, hooks, CTAs, social media captions,
-  sales content, ad copy, or viral angles.
-  NOT for: technical documentation, data analysis, research, visual design.
-version: "1.0.0"
+  Criar copy para a Barns Western: legendas, headlines, CTAs, carrosséis, anúncios,
+  stories e qualquer texto voltado a Instagram, Facebook ou TikTok.
+  NÃO usar para: documentação técnica, análise de dados, briefings visuais.
+version: "2.0.0"
+brand: "Barns Western"
 ---
 
-# Copywriting — Best Practices
+# Copywriting Barns Western — Sistema de Copy Estratégico
 
-## Core Principles
+## Identidade da Marca — Leia Antes de Escrever Qualquer Linha
 
-1. **Hook-first writing.** The first line decides everything. Before writing any piece of copy, draft the hook. If the hook does not pass the scroll-stop test, nothing else matters. Spend 50% of your creative energy on the first sentence.
+**Quem é a Barns:**
+Marca brasileira de acessórios western — óculos solares como produto hero, com braceletes, bonés, cintos, pulseiras, fivelas e colares como complementares. Atua no nicho country/western no Brasil.
 
-2. **Platform-aware constraints.** Respect the native conventions of each platform. Instagram captions: front-load the hook before the "...more" fold (first 125 characters). LinkedIn: use line breaks for readability, avoid hashtag walls. X: distill the message to its sharpest form within 280 characters. Ads: match the headline to the creative and the landing page promise.
+**Posicionamento definitivo:**
+Barns não vende luxo. Barns vende respeito percebido.
+Presença premium sem preço premium.
 
-3. **Emotional resonance before logic.** People decide with emotion and justify with logic. Lead with the feeling (fear, desire, curiosity, belonging, urgency) and then support with proof, data, or social evidence. Never lead with features; lead with the transformation.
+**Regra de ouro da percepção:**
+Se vende R$199, precisa parecer R$349. O copy faz parte dessa construção.
 
-4. **CTA in every piece.** No copy leaves without a clear call-to-action. The CTA must be specific ("Comment 'GUIDE' to get the free PDF"), not vague ("Check out the link"). Match the CTA intensity to the content stage: awareness content gets soft CTAs, bottom-funnel content gets direct CTAs.
+**O que a Barns transmite (sempre):**
+presença, confiança, liberdade, estilo forte, valor inteligente, identidade real, modernidade com raiz
 
-5. **Hook-first selection.** Before writing the body, always present 3 hook options using genuinely different emotional angles or structural formats. Let the user choose. The chosen hook becomes the anchor for the entire piece. The framework selection, the body structure, and the CTA all follow from it. Never write the body before the hook is confirmed.
+**O que a Barns nunca transmite:**
+amadorismo, excesso de rusticidade, cowboy caricatura, barato, genérico, gritaria promocional
 
-6. **Brand voice alignment.** Before writing, absorb the company context, tone of voice guidelines, and audience profile. Every piece of copy must sound like the brand, not like a generic copywriter. Mirror the vocabulary, sentence rhythm, and personality of the brand.
+**Sensação que cada peça de copy deve causar:**
+"Essa marca é maior do que eu imaginava." / "Preciso ter isso."
 
-7. **Audience-specific vocabulary.** Write in the words your audience actually uses. If targeting developers, use technical shorthand. If targeting mothers, use language that reflects their daily reality. Copy that sounds like the reader's inner monologue always outperforms copy that sounds like a marketer.
-
-8. **Conciseness as a weapon.** Short sentences hit harder. One idea per sentence. One idea per paragraph. White space is your ally. Dense blocks of text are the enemy of engagement. When in doubt, cut.
-
-9. **Specificity over generality.** "Grew revenue by 47% in 90 days" beats "significantly increased revenue." Numbers, timeframes, and concrete details create believability. Vague claims create skepticism.
-
-## Pre-Writing Diagnosis
-
-Before drafting any hook, run all four diagnoses internally. Never skip this step. It determines everything that follows: tone, aggression level, framework choice, and psychological angle.
-
-### 1. Awareness Level (Eugene Schwartz)
-
-Identify which stage the target audience is at:
-
-- **Unaware**: Does not know they have a problem. Hook must create the problem in their mind.
-- **Problem Aware**: Knows the problem, does not know solutions exist. Hook leads with the pain.
-- **Solution Aware**: Knows solutions exist, does not know your product. Hook leads with mechanism or differentiation.
-- **Product Aware**: Knows your product, not convinced. Hook leads with proof, results, objection handling.
-- **Most Aware**: Ready to buy. Hook leads with offer and urgency.
-
-> Rule: Never write persuasive copy without identifying awareness level. It changes everything.
-
-### 2. Market Sophistication Level (Eugene Schwartz)
-
-Identify how saturated this market is with similar claims:
-
-- **Stage 1 — First to market**: Bold, direct promise. The claim alone is enough.
-- **Stage 2 — Competition entering**: Bigger, better promise. Amplify the benefit.
-- **Stage 3 — Mechanism competition**: Introduce the unique mechanism. HOW you deliver matters more than the promise.
-- **Stage 4 — Belief fatigue**: Audience has heard every claim. Niche down, humanize, amplify specifics.
-- **Stage 5 — Identity-based persuasion**: The product is an expression of who they are, not what it does.
-
-> Rule: Sophistication level sets the tone. Stage 1 copy in a Stage 4 market is invisible.
-
-### 3. Big Idea System
-
-Every piece of great copy is built on a Big Idea, not just a topic. Identify before writing:
-
-- **Enemy**: What conventional belief, system, or category are you opposing?
-- **New Mechanism**: What is the unique process, method, or insight that makes your approach different?
-- **Unique Promise**: What specific transformation does this deliver that no competitor claims?
-- **Core Belief to Attack**: What does the audience believe today that keeps them stuck?
-
-> Rule: If the copy could have been written by any brand in the niche, there is no Big Idea. Rewrite.
-
-### 4. Dominant Psychological Driver
-
-Identify the ONE primary driver that will anchor the entire piece. Choose only one:
-
-- **Fear of loss**: Fear of losing something they already have or could have.
-- **Desire for status**: Desire for recognition, prestige, positive envy.
-- **Belonging**: Need to be part of a group or movement.
-- **Freedom**: Escape from a restriction, obligation, or invisible prison.
-- **Security**: Protect what is theirs, guarantee the future, eliminate uncertainty.
-- **Achievement**: Prove something to themselves or to others.
-- **Control**: Regain power over an area of life.
-
-> Rule: Anchor the entire piece (hook, body, CTA) around this ONE driver. Mixed drivers dilute impact.
-
-## Persuasion Psychology
-
-These are your weapons. Deploy them intentionally, never accidentally. For each piece of copy, select the 2-3 tactics that serve the dominant psychological driver and the awareness level.
-
-- **Loss aversion**: Fear of losing is stronger than desire for gain. Frame the cost of inaction, not just the benefit of action. "Every day you wait, your competitor gains ground."
-- **Status elevation**: People do not buy products; they buy a version of themselves. Show who they become. "The kind of founder who..."
-- **Identity-based persuasion**: Tie the action to the identity the reader wants to claim. "This is what serious operators do."
-- **Cognitive dissonance triggers**: Challenge a belief they hold. Create tension between what they believe and what is true. They must resolve it by reading on.
-- **Future pacing**: Walk them through the future state in specific, sensory detail. They mentally live it before they buy it.
-- **Open loops**: Introduce a question or tension that cannot be resolved without reading further. Never close the loop early.
-- **Specificity bias**: "47% increase in 12 days" is more believable than "significantly improved." Brains trust numbers. Always choose the specific over the vague.
-- **Social proof stacking**: One testimonial is a claim. Three with specifics is evidence. Stack proof in layers: number of users, named testimonials, ratings, outcomes.
-- **Authority anchoring**: Establish the credibility of the mechanism or the person before making the promise. Borrow authority from recognizable sources when possible.
-- **Scarcity framing**: Real scarcity (limited spots, closing date, inventory) intensifies action. Never manufacture fake scarcity; it destroys trust permanently.
-
-> Rule: Never use these as decoration. Every psychological tactic in the copy must serve the dominant driver identified in the Pre-Writing Diagnosis.
-
-## Techniques & Frameworks
-
-### Hook Creation
-
-Before selecting a persuasion framework or writing the body, draft 3 hooks. Each hook MUST use a different psychological driver AND a different structural type. Structural types include: provocative question, bold contrarian statement, data/statistic lead, story opening, direct benefit claim, pattern interrupt, enemy framing. For each hook, include a one-line rationale: the psychological driver it targets and why it will land with this specific audience at this awareness level.
-
-### Framework Selection
-
-Based on the chosen hook, angle, and objective, choose the most effective framework:
-
-- **AIDA** (Attention-Interest-Desire-Action): Best for awareness content and cold audiences. Use when introducing something new.
-- **PAS** (Problem-Agitate-Solution): Best for pain-point content. Use when the audience has a problem they feel daily.
-- **BAB** (Before-After-Bridge): Best for transformation content. Use when showing a journey or result.
-- **Star-Story-Solution**: Best for personal brand content. Use when the founder or brand has a compelling narrative.
-- **4Ps** (Promise-Picture-Proof-Push): Best for sales pages and ads. Use when you need to close.
-
-Framework-to-funnel mapping:
-
-- Top-of-funnel (awareness) = AIDA or Star-Story-Solution
-- Middle-of-funnel (consideration) = PAS or BAB
-- Bottom-of-funnel (conversion) = 4Ps or PAS
-
-### Body Drafting
-
-With the hook confirmed, write the body following the selected framework. The body must build momentum without filler. Before the CTA, inject an objection neutralizer: identify the single biggest objection the reader would have at this point and address it directly in one to two lines. Examples: "No experience needed." / "Works even if you've tried everything else." / "Cancel anytime, no questions."
-
-### CTA Intensity Ladder
-
-Match the CTA intensity to the funnel stage and emotional temperature:
-
-- **Level 1 — Micro-commitment**: Save, follow, like. For cold or awareness-stage audiences.
-- **Level 2 — Engagement**: Comment, DM, share. For warm audiences building relationship.
-- **Level 3 — Lead capture**: Download, register, get the guide. For audiences ready to exchange contact.
-- **Level 4 — Purchase**: Buy, enroll, get started. For bottom-funnel audiences with intent.
-- **Level 5 — High-ticket commitment**: Apply, book a call, join. For high-consideration decisions.
-
-CTA intensity shorthand:
-
-- Soft CTA for awareness content (save, share, follow).
-- Medium CTA for consideration content (comment, DM, click link).
-- Hard CTA for conversion content (buy, sign up, book now).
-
-### Copy Stress Test
-
-Before delivering, run this checklist internally:
-
-- Would a skeptical reader believe this?
-- Is there proof behind every significant claim?
-- Is the promise too inflated for the audience's awareness level?
-- Is there any friction or confusion in the flow?
-- Can any sentence be cut without losing meaning?
-- Is this hook sharper than what competitors are running?
-- After this check: reduce total word count by 15-25% without losing meaning. Cut filler, not substance.
-
-## Quality Criteria
-
-- [ ] Pre-writing diagnosis completed: awareness level identified and copy calibrated to it
-- [ ] Market sophistication level identified and tone/mechanism depth matches the stage
-- [ ] Big Idea present: enemy, new mechanism, and unique promise are identifiable in the copy
-- [ ] ONE dominant psychological driver anchors the entire piece from hook to CTA
-- [ ] Three hooks each use different psychological drivers AND different structural types
-- [ ] Objection injection present immediately before the CTA
-- [ ] CTA intensity matches the correct Intensity Ladder level for this funnel stage
-- [ ] Copy Stress Test passed: skeptic test, proof check, inflation check, friction check
-- [ ] Word count reduced 15-25% from initial draft. Filler eliminated
-- [ ] Anti-commodity check passed: copy cannot be used unchanged by a competitor
-- [ ] Clear hook present in the first line, within platform fold limits
-- [ ] Call-to-action is present, specific, and uses active voice
-- [ ] Platform character limits and formatting conventions are respected
-- [ ] No cliche from the banned list appears anywhere in the copy
-- [ ] 3 hook options were presented in Phase 1 and user confirmed their selection before body was written
-- [ ] At least one emotional trigger is clearly present (fear, desire, curiosity, urgency, belonging)
-- [ ] Brand voice is consistent with company context and tone guidelines
-- [ ] Scroll-stop test passed: the first line would make you stop scrolling
-- [ ] Specificity check: vague claims replaced with numbers, timeframes, or concrete details
-- [ ] Copy reads naturally when spoken out loud (no stiff or overly formal phrasing)
-- [ ] No walls of text: every paragraph is 3 lines or fewer on mobile
-- [ ] Persuasion framework is identifiable and correctly executed (AIDA, PAS, BAB, etc.)
-
-## Output Examples
-
-### Example 1: Instagram Carousel Caption (Fitness Coach, PAS Framework)
-
-**Phase 1 — Hook Selection:**
-
-**Hook A (Contrarian):**
-```
-Stop exercising to lose weight.
-Seriously. It is the least effective thing you are doing.
-```
-Rationale: Contrarian hooks create cognitive dissonance. The reader expects exercise = weight loss, so challenging that belief forces them to keep reading.
-
-**Hook B (Statistic):**
-```
-200 clients. 8kg average in 12 weeks.
-Zero of them cut carbs.
-Here is what they did instead:
-```
-Rationale: Leading with proof creates immediate credibility. The specific numbers (200, 8kg, 12 weeks) and the surprising detail (zero cut carbs) create curiosity.
-
-**Hook C (Question):**
-```
-What if the reason you cannot lose weight
-has nothing to do with food or exercise?
-```
-Rationale: Open-loop question that challenges assumptions. The reader has to click "...more" to resolve the tension.
+**Arquétipos da marca (âncoras psicológicas de todo copy):**
+- Primário — Herói: conquista, trabalho, respeito, presença
+- Secundário — Explorador: estrada, liberdade, horizonte, campo
+- Terciário — Rebelde controlado: não segue moda vazia, autenticidade real
 
 ---
 
-**Phase 2 — Complete Copy (user selected Hook A):**
+## Personas — Escreva Para Essas Pessoas
 
-```
-HOOK:
-You are doing 100 things to lose weight.
-And ignoring the ONE thing that actually works.
+### Persona Principal: João, 29 anos
+Engenheiro agrônomo, interior de São Paulo. Trabalha muito, gosta de rodeio, caminhonete, churrasco e estilo forte. Não compra moda. Compra imagem. Quer algo que vista bem, dure e passe respeito.
 
-BODY:
-Here is what nobody tells you about fat loss:
+**Dores reais:**
+- Quer algo estiloso e marcante sem pagar caro em marcas superfaturadas
+- Quer parecer bem vestido, forte e confiante
+- Quer produto country moderno de verdade, sem caricatura
 
-It is not about eating less.
-It is not about running more.
-It is not about that green juice your coworker swears by.
+**Universo:** agro, interior, caminhonete lifestyle, rodeios, empreendedor, gosta de imagem forte, quer ser respeitado, compra o que parece valer mais
 
-The real problem?
-You have never built a system that fits YOUR life.
+### Persona Secundária: Cowgirl Moderna, 20–35 anos
+Gosta de visual marcante, country contemporâneo, compra acessórios que elevam presença. Sensualidade natural mais força. Não quer ser tratada como fã de faroeste, quer ser tratada como estilo.
 
-You follow generic plans made for generic people.
-Then you feel like a failure when they do not stick.
-
-That is not a you problem. That is a plan problem.
-
-What actually works:
-
-Slide 1: Calculate YOUR maintenance calories (not a random 1200 number)
-Slide 2: Build meals around foods you already like (yes, pasta counts)
-Slide 3: Move in ways that do not make you miserable (walking > suffering)
-Slide 4: Track progress weekly, not daily (the scale lies on Mondays)
-Slide 5: Adjust every 2 weeks based on real data, not feelings
-
-The result?
-A system you can follow for 6 months, not 6 days.
-
-I built this exact framework for 200+ clients.
-Average result: 8kg lost in 12 weeks WITHOUT cutting carbs.
-
-CTA:
-Want the full Sustainable Fat Loss Playbook?
-Comment "PLAYBOOK" and I will send it to your DMs for free.
-
-Save this post. You will need it.
-
-#fatloss #weightlossjourney #fitnesscoach #sustainablefitness #nutritioncoach
-```
-
-Framework: PAS (Problem-Agitate-Solution). Emotional trigger: frustration with past failed attempts + desire for a system that fits their real life.
+**Regra:** escreva para pessoas que compram imagem, não moda. Fale em identidade, presença e valor percebido.
 
 ---
 
-### Example 2: Facebook/Instagram Ad Set (SaaS Product, 4Ps Framework)
+## Objeções Barns — Neutralize Antes do CTA
 
-**Phase 1 — Hook Selection:**
+Toda copy de conversão deve neutralizar ao menos uma dessas objeções:
 
-**Hook A (Benefit-led):**
-```
-Stop losing clients to slow proposals. Close 3x faster.
-```
-Rationale: Leads with the direct business outcome (closing faster) and the pain it eliminates (losing clients). Benefit-led hooks work well for bottom-funnel audiences who already know they have a problem.
+1. **Valor percebido:** "Será que realmente vale o preço?"
+   Neutralizador: reforçar qualidade visível, detalhes técnicos, sensação premium
 
-**Hook B (Pain-led):**
-```
-Your proposals take 4 hours. Your competitor's take 15 minutes.
-```
-Rationale: The direct comparison creates urgency and competitive anxiety. The specific numbers (4 hours vs. 15 minutes) make the gap visceral and credible without any claims about the product.
+2. **Confiança:** "Não conheço a marca / posso confiar?"
+   Neutralizador: prova social real, número de clientes, avaliações, história da marca
 
-**Hook C (Social proof):**
-```
-2,100 agencies switched to ProposalKit this year. Here is why.
-```
-Rationale: Opens with a social proof signal and an open loop. The scale (2,100 agencies) implies the reader is behind the curve, while "here is why" demands a click to close the loop.
+3. **Produto:** "A qualidade e proteção são reais?"
+   Neutralizador: mencionar proteção solar, materiais, durabilidade, conforto real
+
+4. **Estilo:** "Vai combinar comigo e com meu dia a dia?"
+   Neutralizador: mostrar versatilidade — campo, cidade, rodeio, dia a dia
+
+5. **Risco:** "E se eu não gostar ou der problema?"
+   Neutralizador: política de troca, garantia, atendimento humanizado
 
 ---
 
-**Phase 2 — Complete Copy (user selected Hook A):**
+## Diagnóstico Pré-Copy — Obrigatório Antes de Escrever
+
+Antes de qualquer hook, execute este diagnóstico internamente. Nunca pule.
+
+### 1. Pilar de Conteúdo
+
+Identifique em qual pilar a copy se encaixa:
+
+- **P1 Desejo:** produto bonito + lifestyle + portfólio aspiracional. Copy aspira, desperta inveja saudável e gera vontade de compra imediata
+- **P2 Autoridade:** qualidade, posicionamento e força de marca. Copy educa, convence e constrói credibilidade
+- **P3 Conversão:** oferta, urgência, best sellers. Copy fecha, empurra para o clique e resolve a última objeção
+- **P4 Comunidade:** clientes reais, reposts, influenciadores. Copy humaniza e prova que outras pessoas já compraram
+- **P5 Cultura:** western moderno e identidade Barns. Copy conecta o leitor ao movimento, não ao produto
+
+> Regra: cada pilar tem tom diferente. P1 usa desejo. P3 usa urgência. Nunca misture os tons do P1 com a pressão do P3.
+
+### 2. Funil — Temperatura do Público
+
+- **Frio (não conhece a Barns):** hook pela dor ou pelo universo, não pela marca. Construa desejo antes de pedir compra
+- **Morno (conhece, ainda não comprou):** hook pela prova social ou por diferencial. Resolva a objeção principal
+- **Quente (já comprou ou está próximo de comprar):** hook pela urgência, escassez ou kit complementar
+
+### 3. Driver Psicológico Principal (escolha UM)
+
+Ancore toda a copy em apenas um destes drivers:
+
+- **Status e respeito:** "quero ser notado, respeitado, reconhecido no meio" — alinha ao arquétipo Herói
+- **Identidade e pertencimento:** "quero fazer parte do universo western com autenticidade" — alinha ao arquétipo Explorador
+- **Autonomia e autenticidade:** "não sigo moda vazia, escolho o que tem identidade real" — alinha ao arquétipo Rebelde controlado
+- **Valor percebido:** "quero parecer que gastei mais do que gastei" — gatilho do preço justo
+- **Segurança da compra:** "quero ter certeza de que não estou jogando dinheiro fora" — funil de conversão
+
+> Regra: driver misturado dilui o impacto. Escolha um e construa toda a copy em torno dele.
+
+### 4. Sofisticação do Mercado Barns
+
+O mercado de acessórios western brasileiro está no **Estágio 3–4:**
+- Promessas genéricas de "qualidade" já não funcionam — o público já ouviu isso de todos
+- O que funciona: mecanismo específico (como o produto entrega presença), história real, diferenciais visuais concretos e prova de comunidade
+
+> Regra: nunca escreva "qualidade premium" sem entregar prova ou especificidade que justifique a afirmação.
+
+---
+
+## Fase 1 — Hook: Apresente 3 Opções Antes de Escrever o Corpo
+
+**Regra absoluta:** apresente 3 hooks com ângulos emocionais e estruturas diferentes antes de escrever qualquer corpo de copy. Aguarde a escolha do usuário.
+
+### Tipos de Hook que Funcionam para a Barns
+
+- **Contrário ao senso comum:** desafia o que o público acredita sobre acessórios country
+  Ex: "Você não precisa de marca cara para chegar sendo notado."
+
+- **Abertura com cena:** coloca o leitor numa situação real do universo western
+  Ex: "Arena. Pôr do sol. Você chega. Todo mundo olha."
+
+- **Dado/prova específica:** número, resultado ou fato concreto que cria credibilidade imediata
+  Ex: "Mais de 5.000 pessoas escolheram o estilo Barns este ano."
+
+- **Desejo direto:** benefício principal na primeira linha, sem rodeios
+  Ex: "Chegue diferente. Sem pagar o preço de grife."
+
+- **Provocação de identidade:** apela ao senso de quem o leitor quer ser
+  Ex: "Para quem não usa moda. Usa estilo."
+
+- **Tensão comparativa:** cria contraste entre o antes (sem Barns) e o depois (com Barns)
+  Ex: "Mesmo look. Sem o óculos. Passa em branco."
+
+- **Pergunta que abre loop:** força o leitor a continuar para fechar a tensão
+  Ex: "Qual o detalhe que separa quem chega de quem é notado?"
+
+### Estrutura de Apresentação de Hooks
+
+Para cada hook apresentado, inclua obrigatoriamente:
+- O texto do hook
+- Uma linha de rationale: driver psicológico + por que vai funcionar com o público Barns neste momento
+
+---
+
+## Fase 2 — Frameworks de Copy para a Barns
+
+### Fórmula Barns (Copy Curta — Padrão da Marca)
+
+**Hook + Benefício + Identidade + CTA**
+
+Ex: Chegue diferente. Óculos Barns com presença premium e preço justo. Escolha o seu.
+
+Use esta fórmula em: legendas curtas, stories, textos de anúncio, headlines de peça.
+
+### PAS — Problema, Agitação, Solução
+
+Melhor para: P3 Conversão, público morno que conhece a dor mas ainda não resolveu.
+
+Estrutura:
+- **Problema:** Dificuldade em encontrar acessório western moderno, sem caricatura e sem pagar caro
+- **Agitação:** Você continua sem o visual que representa quem você realmente é
+- **Solução:** A Barns entrega presença real, design exclusivo e preço que faz sentido
+
+### BAB — Before, After, Bridge
+
+Melhor para: P1 Desejo, conteúdo aspiracional, transformação visual.
+
+Estrutura:
+- **Before:** Você sem o acessório certo, passando em branco
+- **After:** Você com Barns, sendo notado antes de falar qualquer coisa
+- **Bridge:** O produto que entrega essa mudança de presença
+
+### Star-Story-Solution
+
+Melhor para: P5 Cultura, storytelling do fundador, humanização da marca.
+
+Estrutura:
+- **Star:** Alguém do universo country (fundador, cliente, persona João)
+- **Story:** O momento real que conecta com a vida do leitor
+- **Solution:** Como a Barns resolve o que estava faltando
+
+### AIDA — Atenção, Interesse, Desejo, Ação
+
+Melhor para: anúncios paid, público frio, carrosséis educativos de topo de funil.
+
+Estrutura:
+- **Atenção:** Hook de impacto visual ou contrário
+- **Interesse:** O que é a Barns, o que faz e por que é diferente
+- **Desejo:** Resultado concreto, prova social, sensação de posse
+- **Ação:** CTA direto e específico
+
+### 4Ps — Promise, Picture, Proof, Push
+
+Melhor para: P3 Conversão pesada, anúncios de retargeting, páginas de produto.
+
+Estrutura:
+- **Promise:** Presença western premium com preço que faz sentido
+- **Picture:** Você no rodeio, na estrada, no churrasco — com o visual certo
+- **Proof:** Clientes reais, avaliações, quantidade vendida
+- **Push:** CTA de alta intensidade — compre agora, garanta hoje, estoque limitado
+
+### Estrutura Barns de Carrossel Vendedor
+
+1. Hook forte (slide 1 — faz parar o scroll)
+2. Dor ou desejo (slide 2 — espelho do leitor)
+3. Benefícios específicos (slides 3–4)
+4. Prova social (slide 5)
+5. Neutralizador de objeção (slide 6 — antes do CTA)
+6. CTA direto (slide final)
+
+---
+
+## Corpo da Copy — Regras de Escrita Barns
+
+### Tom de Voz
+
+- Direto e forte: diga o que tem a dizer. Sem rodeios, sem qualificadores fracos
+- Simples e confiante: não use linguagem elitista, não tente impressionar, impacte
+- Frases curtas: uma ideia por frase. Uma frase por parágrafo nos momentos de peso
+- Sem caricatura: nunca force o universo country — ele aparece naturalmente no vocabulário e nos cenários
+
+### Ritmo de Copy
+
+1. Após toda ideia densa, escreva uma frase curta. Ela cai mais forte.
+2. A cada 5–7 linhas: um interruptor de padrão — uma linha curta, uma pergunta, uma afirmação direta.
+3. Em mobile: nenhum bloco com mais de 3 linhas. Espaçamento é respiro para o leitor.
+4. Frases de uma linha sozinhas têm peso. Reserve para a ideia mais importante da copy.
+
+### Neutralizador de Objeção
+
+Antes de todo CTA de conversão, neutralize a objeção mais provável do leitor naquele momento. Uma ou duas linhas, nunca mais.
+
+Modelos prontos:
+- "Proteção solar real. Acabamento que você sente na mão."
+- "Entrega confiável. Troca sem complicação."
+- "Quem usa, não para de usar."
+- "Funciona no rodeio. Funciona no escritório. Funciona em você."
+- "Sem risco. Sem arrependimento."
+
+---
+
+## CTAs — Escada de Intensidade Barns
+
+Ajuste a intensidade do CTA ao funil e à temperatura do público:
+
+- **Nível 1 — Micro-compromisso (público frio):** Salva esse post. Compartilha com quem tem estilo.
+- **Nível 2 — Engajamento (público morno):** Comenta o modelo que você escolheria. Me manda uma mensagem.
+- **Nível 3 — Captura (pré-venda):** Acessa o link na bio. Veja a coleção completa.
+- **Nível 4 — Compra (fundo de funil):** Garanta o seu agora. Escolha seu modelo. Compre antes que acabe.
+- **Nível 5 — Kit / Upsell:** Monte o seu kit. Leva o par e leva o bracelete.
+
+**CTAs prontos Barns:**
+- Escolha seu modelo.
+- Garanta o seu agora.
+- Veja a coleção completa.
+- Descubra o que combina com você.
+- Compre antes que acabe.
+- Monte o seu kit.
+- Acessa o link e escolhe o seu.
+
+---
+
+## Regras por Plataforma
+
+### Instagram
+
+- Primeiras 125 caracteres são críticas: o hook deve estar completo antes do "...ver mais"
+- Legendas curtas para posts de desejo e lifestyle (P1, P5): 2–5 linhas
+- Legendas médias para carrosséis educativos e de prova (P2, P4): até 12 linhas
+- Legendas longas com estrutura completa apenas para P3 Conversão
+- Hashtags: máximo 5–8 relevantes, no final, nunca no meio do texto
+- Nunca encerrar com "Hope this helps!" — sempre CTA específico ou frase de identidade
+
+**Legendas curtas prontas (copiar ou adaptar):**
+- Presença não se explica. Se percebe.
+- Produto forte. Preço inteligente.
+- Para quem chega sendo notado.
+- Seu visual merece mais peso.
+- Barns no rosto. Respeito na chegada.
+- O acessório certo muda tudo.
+- Feito pra marcar.
+- Chegue diferente.
+- Valor que se vê.
+- Presença acima do preço.
+
+### Facebook
+
+- Permite mais texto que Instagram, mas o hook ainda deve estar na primeira linha visível
+- Estruturas PAS e 4Ps funcionam melhor para anúncios paid
+- Para feed orgânico: tom mais próximo, quase de conversa, com pergunta que gera comentário
+- Anúncios: hook + problema + solução + prova + CTA. Sem enrolação.
+- Retargeting: curto, direto, urgência. Ex: "Você viu. Ainda não levou. O estoque é limitado."
+
+### TikTok
+
+- Os primeiros 3 segundos do vídeo são o hook — a legenda reforça, não substitui
+- Legenda deve ser curta: 1–2 frases no máximo, completando a narrativa do vídeo
+- Tom mais espontâneo, mas nunca perde a força da voz Barns
+- Evitar linguagem de trend: não use "trend", "vibes", "aesthetic" — use identidade, estilo, presença
+- Estrutura de script de vídeo: gancho visual forte + tensão narrativa + resolução com produto + CTA falado
+- Exemplos de gancho falado para TikTok:
+  - "Se você ainda não tem esse acessório, você está chegando no lugar errado."
+  - "O detalhe que mais muda um visual country? Não é a roupa."
+  - "Esse óculos custou menos do que você imagina. E entrega mais do que você espera."
+
+---
+
+## Vocabulário Barns
+
+### Use Sempre
+
+**Termos de identidade e presença:**
+presença, autenticidade, raiz, estilo western, confiança, valor percebido, qualidade, atitude, identidade, liberdade, moderno, marcante, originalidade, campo, estrada, tradição, preço justo, visual forte, conforto, proteção solar
+
+**Verbos de ação Barns:**
+chegar, marcar, escolher, garantir, elevar, vestir, representar, mostrar, contar, carregar
+
+**Cenários e universo:**
+rodeio, arena, caminhonete, estrada, pôr do sol, campo aberto, poeira, couro, metal, fazenda, churrasco, cidade com atitude
+
+**Slogans e taglines da marca:**
+- Raiz no estilo
+- Feito pra marcar
+- Valor de verdade no que você veste
+- Vista sua raiz. Encare o mundo.
+- O olhar de quem carrega história.
+- Campo na essência. Estilo na visão.
+- BARNS — Feita para marcar.
+
+### Nunca Use
+
+**Palavras proibidas (lista completa):**
+baratinho, lookinho, modinha, trend, arrase, vibes, aesthetic, falsificado, réplica, luxo exagerado, ostentação, imperdível demais, milagroso, melhor do mundo, garantido, qualquer um usa, cowboy fantasia, promoção louca, liquidação total
+
+**Padrões proibidos:**
+- "Frete grátis acima de X" como copy principal — não é diferencial, é operacional
+- "Aproveite!" como único CTA — fraco e genérico
+- "Super promoção" ou "mega desconto" — destroem percepção premium
+- "Garanta o SEU desconto" — foco no desconto dilui valor percebido; foque no produto
+- Comparação direta com concorrentes pelo nome — posicione pela superioridade, não pelo ataque
+- Cowboy com chapéu de faroeste como referência de copy — é caricatura, não identidade
+
+---
+
+## Pilares de Conteúdo — Guia de Tom por Pilar
+
+### P1 Desejo — Tom: Aspiracional, Silencioso, Poderoso
+Copy mostra o produto no mundo ideal do leitor. Não empurra. Desperta.
+Palavras-chave: estilo, presença, chegada, visual, atmosfera, sensação
+Ex de legenda: "Arena. Pôr do sol. Óculos Barns. Não precisa de mais nada."
+
+### P2 Autoridade — Tom: Confiante, Técnico, Educativo
+Copy prova que a Barns sabe o que faz e entrega o que promete.
+Palavras-chave: qualidade, proteção solar, design exclusivo, construção, detalhe
+Ex de hook de carrossel: "5 razões por que os óculos Barns têm mais presença do que modelos que custam o dobro."
+
+### P3 Conversão — Tom: Direto, Urgente, Objetivo
+Copy remove fricção e empurra para a compra. Sem poetizar. Sem enrolação.
+Palavras-chave: garanta, agora, estoque, kit, escolha, compre
+Ex de legenda: "Kit Rodeio completo. Óculos + bracelete. Visual montado. Link na bio."
+
+### P4 Comunidade — Tom: Próximo, Humano, Orgulhoso
+Copy celebra quem já usa e faz os que ainda não usam quererem entrar.
+Palavras-chave: cliente, história, visual, comunidade, quem usa
+Ex de legenda: "Quando o cliente manda a foto, a gente entende por que a Barns existe."
+
+### P5 Cultura — Tom: Manifesto, Identidade, Pertencimento
+Copy não vende produto. Vende pertencer a um movimento real.
+Palavras-chave: raiz, identidade, western moderno, liberdade, quem você é
+Ex de legenda: "Não é estilo country. É identidade. É Barns."
+
+---
+
+## Exemplos de Copy Prontos — Barns Western
+
+### Exemplo 1: Legenda de Post de Desejo (P1, Instagram)
+
+**Fase 1 — Escolha de Hook:**
+
+**Hook A (Cena):**
+```
+Arena. Pôr do sol. Todo mundo olha.
+Você ainda está escolhendo o óculos certo.
+```
+Rationale: coloca o leitor no universo western antes de mencionar qualquer produto. Cria desejo pela cena, não pelo objeto.
+
+**Hook B (Identidade):**
+```
+Para quem não usa moda.
+Usa estilo.
+```
+Rationale: ativa o arquétipo Rebelde controlado. O leitor se identifica com quem recusa o genérico.
+
+**Hook C (Direto com Tensão):**
+```
+Chegue diferente.
+Ou chegue igual a todo mundo.
+```
+Rationale: cria tensão binária. O leitor tem que escolher um lado. Funciona bem com público masculino agro que valoriza se diferenciar no meio.
+
+---
+
+**Fase 2 — Copy Completa (usuário selecionou Hook A):**
 
 ```
-HOOK:
-Stop losing clients to slow proposals. Close 3x faster.
+Arena. Pôr do sol. Todo mundo olha.
+Você ainda está escolhendo o óculos certo.
 
-BODY:
-PROMISE:
-Create professional proposals in 15 minutes, not 4 hours.
+O acessório que você coloca no rosto diz quem você é
+antes de você abrir a boca.
 
-PICTURE:
-Imagine this: a lead comes in at 2pm.
-By 2:15, you have sent a branded, personalized proposal
-with pricing, timeline, case studies, and e-signature built in.
+Barns foi feita pra isso.
+Presença real. Design exclusivo. Preço que faz sentido.
 
-Your competitor? Still updating their Word template.
+Escolha o seu modelo.
+Link na bio.
 
-PROOF:
-- 2,100 agencies use ProposalKit
-- Average close rate increased by 34%
-- 85% of proposals are opened within 1 hour of sending
-- Rated 4.8/5 on G2 with 400+ reviews
-
-"We closed $180K in new business in the first month
-after switching to ProposalKit. Not exaggerating."
-  -- Sarah Chen, founder of BrightPath Digital
-
-PUSH:
-Start your free 14-day trial today.
-No credit card. No setup calls. Just faster proposals.
-
-[Try ProposalKit Free] [See a Demo Proposal]
+#barnswestern #oculoscountry #westernmoderno #estilo #lifestyle
 ```
 
-Framework: 4Ps (Promise-Picture-Proof-Push). Emotional trigger: competitive anxiety + desire for efficiency. The hook sets the benefit and the competitive stakes; the body walks through the 4Ps to close.
+---
 
-**Supporting Ad Variations:**
+### Exemplo 2: Carrossel Vendedor (P3, Instagram/Facebook)
 
-**Short-form ad (for retargeting):**
+**Fase 1 — Escolha de Hook:**
+
+**Hook A (Problema + Tensão):**
 ```
-You visited ProposalKit but did not sign up.
-Meanwhile, 47 agencies signed up today.
-Your free trial is still waiting: [link]
+Você quer estilo western de verdade.
+Mas não quer pagar caro em marca que vende nome.
+```
+Rationale: espelha exatamente a dor principal do público Barns. Cria identificação imediata.
+
+**Hook B (Prova social):**
+```
+Mais de 5.000 clientes já escolheram a Barns.
+Você ainda não sabe o que está esperando.
+```
+Rationale: cria urgência social. O leitor sente que está ficando para trás.
+
+**Hook C (Contrário):**
+```
+Ninguém precisa de óculos caro pra ter presença.
+Precisa do óculos certo.
+```
+Rationale: desconstrução da barreira de valor percebido. Posiciona a Barns como a alternativa inteligente, não a alternativa barata.
+
+---
+
+**Fase 2 — Copy do Carrossel Completo (usuário selecionou Hook A):**
+
+```
+SLIDE 1 (HOOK):
+Você quer estilo western de verdade.
+Mas não quer pagar caro em marca que vende nome.
+
+SLIDE 2 (DOR):
+Acessórios country ou parecem faroeste antigo
+ou custam o dobro do que valem.
+
+Você fica sem opção real.
+
+SLIDE 3 (SOLUÇÃO):
+A Barns foi criada pra resolver isso.
+
+Design exclusivo no universo western moderno.
+Qualidade que você sente quando pega na mão.
+Preço que faz sentido pra quem trabalhou pra ter.
+
+SLIDE 4 (BENEFÍCIOS):
+Óculos com proteção solar real.
+Visual que funciona no rodeio, na cidade e no dia a dia.
+Acabamento premium sem o preço inflado.
+
+SLIDE 5 (PROVA):
+Mais de 5.000 clientes escolheram a Barns.
+Não porque era barato.
+Porque valia mais do que custava.
+
+SLIDE 6 (NEUTRALIZADOR + CTA):
+Entrega confiável. Troca sem burocracia.
+Qualidade que você vê antes de pagar.
+
+Escolha seu modelo agora.
+Link na bio.
 ```
 
-**Story/Reel ad script (15 seconds):**
-```
-[Screen recording of proposal being built]
-Text overlay: "4 hours to write a proposal?"
-[Timer showing 15 minutes]
-Text overlay: "Try 15 minutes."
-[Proposal sent notification]
-Text overlay: "ProposalKit. Free for 14 days."
-CTA button: "Start Free Trial"
-```
+---
 
-**Carousel ad cards:**
+### Exemplo 3: Script TikTok — 15 segundos (P1 Desejo)
+
 ```
-Card 1: "Your proposals take HOW long?"
-Card 2: "Average agency: 4 hours per proposal"
-Card 3: "ProposalKit users: 15 minutes"
-Card 4: "Branded templates. Auto-fill client data. E-sign built in."
-Card 5: "2,100 agencies. 34% higher close rate."
-Card 6: "Free for 14 days. No credit card. [Start now]"
+[Visual: close no óculos, mão tirando da embalagem]
+Voz: "O detalhe que mais muda um visual country?"
+
+[Visual: modelo colocando o óculos, câmera no rosto]
+Voz: "Não é a roupa. É o óculos."
+
+[Visual: plano aberto — modelo com atitude, cenário western]
+Voz: "Barns. Presença real. Preço justo."
+
+[Visual: logo Barns + link]
+Texto na tela: "Escolha o seu. Link na bio."
 ```
 
-## Anti-Patterns
+---
 
-### Never Do
+### Exemplo 4: Anúncio de Retargeting (Facebook/Instagram, público morno)
 
-1. **Never start with a cliche opener.** "In today's digital world...", "Did you know...?", "In this post I will share..." are instant scroll triggers. Your first line must earn the reader's attention, not announce your intentions.
+```
+Você viu os óculos Barns.
+Ainda não levou.
 
-2. **Never write walls of text.** On mobile screens, 3 lines is already a visual block. Use line breaks aggressively. One thought per paragraph. White space is not wasted space; it is breathing room for the reader.
+Enquanto isso, o estoque foi diminuindo.
 
-3. **Never use passive voice in calls-to-action.** "The free guide can be downloaded at..." is weak. "Download the free guide now" is a direct command. CTAs are orders, not suggestions.
+Proteção solar real. Design exclusivo. Presença garantida.
+Sem arrependimento.
 
-4. **Never ignore platform character limits and formatting.** Instagram hides captions after ~125 characters behind "...more." LinkedIn collapses posts after ~210 characters. X enforces 280 characters. If your hook lives past the fold, it does not exist.
+Garanta o seu agora. Link na bio.
+```
 
-5. **Never write without a clear CTA.** Every piece of copy must tell the reader exactly what to do next. "Hope this helps!" is not a CTA. "Comment GUIDE below and I will DM you the PDF" is a CTA.
+---
 
-6. **Never write the body before the hook is confirmed.** The user must see and select from 3 hook options before any body copy is written. Writing the full piece and presenting hooks as an afterthought defeats the purpose.
+## Anti-Padrões — Nunca Faça Isso na Copy Barns
 
-7. **Never copy the brand's competitors.** Study them, understand their patterns, then differentiate. Copy that sounds like everyone else in the niche is invisible. The goal is to be recognizable, not interchangeable.
+### Nunca
 
-### Always Do
+1. **Nunca use gritaria promocional.** "SUPER PROMOÇÃO", "MEGA DESCONTO", "PREÇO IMPERDÍVEL" destroem o posicionamento premium que a marca constrói. Se houver oferta, apresente com elegância: "Kit Rodeio por um preço que faz sentido."
 
-1. **Lead with the hook.** Write the hook before anything else. Test it against the scroll-stop question. If it does not stop you, it will not stop the audience.
+2. **Nunca force o universo country.** Copy com excesso de referências a chapéu, bota, laço e faroeste soa como caricatura. O universo western aparece nos cenários e no vocabulário, não em clichês.
 
-2. **Match tone to platform.** LinkedIn is not Instagram. X is not a blog. Email is not an ad. Each platform has a native voice, and copy that respects it outperforms copy that ignores it.
+3. **Nunca prometa o que não pode provar.** "O melhor óculos do Brasil" sem prova cria desconfiança. "Mais de 5.000 clientes escolheram" é específico, crível e poderoso.
 
-3. **Present 3 hooks before writing the body.** Always open execution with 3 hook options (Hook A, B, C) using different emotional triggers or structural formats. Annotate each with a one-line rationale. Wait for user selection before proceeding.
+4. **Nunca escreva a legenda antes de confirmar o hook.** O hook é a única coisa que importa antes de tudo. Sem hook aprovado, não existe corpo de copy.
 
-4. **Test every piece against the scroll-stop test.** Before presenting copy, ask: "If I were scrolling at full speed, would this first line make me stop?" If the answer is not an immediate yes, rewrite.
+5. **Nunca use linguagem elitista ou inacessível.** O João não compra de marcas que parecem superiores a ele. Ele compra de marcas que o entendem e o respeitam.
 
-5. **Anti-commodity check.** Before delivering, ask: "Could this exact copy be used by a competitor in the same niche?" If yes, rewrite. The copy must be specific to this brand, this audience, this moment. Generic is invisible.
+6. **Nunca misture intensidade de funil.** Copy de desejo (P1) não pede compra direta. Copy de conversão (P3) não filosofa sobre identidade. Cada pilar tem seu tom.
 
-6. **Polarize or differentiate.** Identify the dominant narrative in the market. Do not reinforce it. Either take the opposite position (polarize) or introduce a fundamentally different angle (differentiate). Copy that echoes the market is copy that disappears into it.
+7. **Nunca abra com opener genérico.** "Você sabia que...?", "No mundo de hoje...", "Olha só o que temos para você..." são gatilhos de scroll imediato. A Barns abre com impacto.
 
-## Vocabulary Guidance
+### Sempre
 
-### Use
+1. **Frase curta depois de ideia complexa.** Ela cai mais forte do que a ideia que veio antes.
 
-- **Power words**: Use power words only when they increase believability. Never as decoration. "Guaranteed" earns its place next to a real guarantee. "Secret" earns its place when the mechanism is genuinely non-obvious. A power word that does not increase credibility weakens the copy. Cut it.
-- **Action verbs**: grab, claim, unlock, discover, build, launch, crush, master, steal (as in "steal this framework"), stop, start, drop, try.
-- **Sensory language**: feel, see, imagine, picture this, notice how, look at, listen.
-- **Numbers and specifics**: exact figures ("47%", "in 12 days", "3 steps"), timeframes, quantities, dollar amounts. Specificity creates credibility.
-- **Direct address with "you/your"**: Write to one person. "You" is the most powerful word in copy. Every sentence should make the reader feel spoken to directly.
-- **Questions as hooks**: "What if everything you know about X is wrong?", "Have you ever wondered why...?", "Want to know the #1 reason...?"
-- **Pattern interrupts**: unexpected openings, counterintuitive claims, open loops that demand closure.
-- **Micro-stories**: 2-3 sentence narratives that create instant emotional connection. "Last Tuesday, a client told me she almost gave up. Today she closed her biggest deal."
+2. **Neutralize a objeção mais provável antes do CTA.** O leitor sempre tem uma dúvida no momento da decisão. Responda antes de ele perguntar.
 
-### Avoid
+3. **O produto é o protagonista, não a marca.** A Barns não aparece gritando. Ela aparece sendo escolhida.
 
-- **"Did you know...?"**: Overused opener that signals generic content. The reader has seen it ten thousand times. Find a sharper entry point.
-- **"In this post..."**: Meta-commentary that wastes the most valuable real estate (the first line). Show, do not announce.
-- **"The best", "amazing", "incredible"**: Vague superlatives that mean nothing. Replace with specific proof: "rated #1 by 2,400 users" beats "amazing tool."
-- **Corporate jargon**: "leverage", "synergy", "scalable solution", "paradigm shift", "ecosystem." Write like a human, not a press release.
-- **Passive voice in CTAs**: "The guide can be downloaded" vs. "Download the guide now." CTAs must be direct commands.
-- **Em dashes**: Never use em dashes anywhere in the copy. They slow reading rhythm and feel literary, not conversational. Use periods, colons, or line breaks instead.
-- **Missing accents in Portuguese or Spanish copy**: Always write with full diacritics. Copy without accents reads as broken text and signals low quality to native speakers.
-- **Walls of text**: Any paragraph longer than 3 lines on mobile is a wall. Break it up. One idea per block.
-- **Filler phrases**: "It is important to note that...", "As a matter of fact...", "In today's fast-paced world...". Get to the point.
-- **Hashtag spam**: More than 5-8 relevant hashtags on Instagram is noise. On LinkedIn and X, 1-3 max. Never let hashtags dominate the visual space.
+4. **Verifique o anti-cowboy-caricatura.** Antes de entregar, pergunte: isso soa como lifestyle real ou como fantasia de faroeste? Se soar como fantasia, reescreva.
 
-## Rhythm Rules
+5. **Check de commoditização:** essa copy poderia ser usada pela Texas Farm, JHR ou TXC sem mudar nada? Se sim, é copy genérica. Reescreva com especificidade Barns.
 
-Great copy is rhythm. Mobile readers scan, not read. Control the pace.
+---
 
-1. After every dense or complex idea, write one short sentence. It lands harder than the paragraph before it.
-2. Use a pattern interrupt every 5-7 lines: a one-liner, a question, a bold claim, a contrasting statement.
-3. Use contrast blocks: short/long, simple/complex, broad/specific. Alternating density keeps the reader moving.
-4. One-line paragraphs are emphasis. Use them for the most important sentence in a section. Isolation creates weight.
+## Checklist de Qualidade — Antes de Entregar Qualquer Copy
 
-## Tone Rules
-
-1. **Conversational.** Write like you talk to a smart friend. No academic structure, no formality for its own sake. Read the copy out loud: if it sounds stiff, rewrite it.
-
-2. **Direct.** Say what you mean. Do not hedge, do not soften, do not over-qualify. "This will change how you write" beats "This might potentially help you improve your writing process somewhat."
-
-3. **Confident.** Write with authority. The reader should feel that this person knows exactly what they are talking about. Confidence is not arrogance; it is clarity of conviction.
-
-4. **Energetic.** The copy should feel alive. Short sentences create rhythm. Line breaks create pace. The reader should feel momentum pulling them forward, not obligation.
+- [ ] Hook está nas primeiras 125 caracteres (Instagram) ou na primeira linha visível (todas as plataformas)
+- [ ] 3 opções de hook foram apresentadas com rationale antes de escrever o corpo
+- [ ] Driver psicológico principal está identificado e ancora toda a copy
+- [ ] Tom está alinhado ao pilar de conteúdo correto (P1 ao P5)
+- [ ] Intensidade do CTA está calibrada ao funil (frio, morno, quente)
+- [ ] Pelo menos uma objeção Barns foi neutralizada antes do CTA
+- [ ] Nenhuma palavra proibida aparece no texto
+- [ ] Copy não usa gritaria promocional ou linguagem de desconto agressivo
+- [ ] Universo western aparece de forma natural, não como caricatura
+- [ ] Frases têm no máximo 3 linhas em blocos (regra mobile)
+- [ ] CTA é específico e usa voz ativa ("Escolha seu modelo" e não "Os modelos podem ser vistos")
+- [ ] A copy passa no teste: "Isso soa como a Barns ou soa como qualquer marca country?"
+- [ ] A copy passa no teste: "Isso faria João parar de rolar o feed?"
+- [ ] Redução de 15–25% do volume inicial após revisão — elimine filler, não substância
+- [ ] Se for P3 Conversão: a sensação de urgência é real (estoque, data, kit limitado), não fabricada

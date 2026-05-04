@@ -1,0 +1,22 @@
+﻿{
+  "squad": "social-media",
+  "status": "completed",
+  "step": { "current": 8, "total": 8, "label": "auto-publish" },
+  "agents": [
+    { "id": "iago-ideia", "name": "Iago Ideia", "icon": "🎯", "status": "done", "desk": { "col": 1, "row": 1 } },
+    { "id": "fernanda-feed", "name": "Fernanda Feed", "icon": "📸", "status": "done", "desk": { "col": 2, "row": 1 } },
+    { "id": "rodrigo-reels", "name": "Rodrigo Reels", "icon": "🎬", "status": "done", "desk": { "col": 3, "row": 1 } },
+    { "id": "sofia-stories", "name": "Sofia Stories", "icon": "📱", "status": "done", "desk": { "col": 1, "row": 2 } },
+    { "id": "vera-veredito", "name": "Vera Veredito", "icon": "✅", "status": "done", "desk": { "col": 2, "row": 2 } },
+    { "id": "bruno-benchmark", "name": "Bruno Benchmark", "icon": "🔍", "status": "idle", "desk": { "col": 3, "row": 2 } }
+  ],
+  "handoff": {
+    "from": "vera-veredito",
+    "to": "vera-veredito",
+    "message": "Run 2026-05-03-172846 completo. Feed 8.7 / Reel 9.3 / Stories 9.6. APROVADO.",
+    "completedAt": "2026-05-03T17:46:00Z"
+  },
+  "startedAt": "2026-05-03T17:28:46Z",
+  "updatedAt": "2026-05-03T17:46:00Z",
+  "completedAt": "2026-05-03T17:46:00Z"
+}

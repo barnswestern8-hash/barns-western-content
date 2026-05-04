@@ -37,21 +37,35 @@ Carlos executa a task `create-creatives`:
 **Cada ficha contém duas camadas**:
 
 **Camada Visual** (usada por Diego para gerar a imagem):
+- Título (identificador interno da ficha — ex: "C1 — Ângulo 1 × Pilar Ângulo")
 - Produto de Referência (com URL)
 - Headline (mínimo 2 variações A/B com abordagens distintas — texto que aparece sobre a imagem)
-- Subtítulo (complementa o headline, não repete)
+- Subheadline (complementa o headline, não repete)
 - Conceito Estratégico (o mecanismo de conversão explicado — não aparece no anúncio)
-- Direção Criativa (Emoção → Atmosfera → Narrativa → Sensação final)
-- Briefing da Arte (descrição narrativa completa da imagem — executável sem perguntas adicionais)
-- Checklist de Elementos Visuais (5 itens obrigatórios para a imagem)
+- Direção Criativa:
+  - Emoção: [sentimento central que o criativo deve evocar na persona]
+  - Atmosfera: [contexto visual e ambiental da cena]
+  - Narrativa: [arco ou sequência de ideias que conecta dor → solução → desejo]
+  - Sensação final: [o que a persona deve sentir após ver o criativo]
+- Briefing da Arte / Direção Visual:
+  - Cenário: [descrição física do ambiente ou setup — ex: estúdio clean, campo aberto, rua urbana]
+  - Iluminação: [tipo, qualidade, direção e temperatura da luz — ex: luz natural lateral quente, strobe frontal duro]
+  - Textura Visual: [materiais, acabamentos e qualidade visual predominantes — ex: couro envelhecido, metal polido, algodão áspero]
+  - Enquadramento da Câmera: [plano, ângulo, posição relativa ao sujeito — ex: close frontal ao nível dos olhos, plano médio em 3/4]
+  - Posição do Produto: [localização no frame, ângulo, visibilidade e uso — produto sempre em uso no corpo do modelo]
+  - Profundidade de Campo: [foco/desfoque, abertura equivalente — ex: fundo desfocado f/1.8, tudo em foco f/8]
+  - Estilo Fotográfico: [referência editorial ou estilo — ex: lifestyle campestre, editorial premium, UGC cotidiano]
+  - Paleta de Cores: [tons dominantes, temperatura, contraste — ex: terrosos quentes com acento dourado]
+- Checklist de Elementos Visuais (5 itens obrigatórios específicos para este criativo)
 - Composição Visual (percentuais das zonas: superior / central / inferior)
 - Hierarquia Visual (5 elementos ordenados por peso visual)
-- Tipografia Sugerida (Headline: Bebas Neue Bold — imutável; Subtítulo: Montserrat Regular — imutável; CTA e corpo: pode variar por pilar — ex: Lato para DSB, Poppins para Creator/UGC, Oswald para DNA do Produto)
+- Tipografia Sugerida (Headline: Bebas Neue Bold como padrão — pode variar conforme a personalidade do pilar; Subheadline: Montserrat Regular como padrão; CTA e corpo: variam por pilar — ex: Lato para DSB, Poppins para Creator/UGC, Oswald para DNA do Produto)
 - CTA com fonte especificada
 - Formato (Estático — 1:1 / 4:5 / 9:16 / 16:9)
+- Contexto do Buyer Persona: [nome da persona, arquétipo, dor principal endereçada neste criativo, motivação central, objeção mais comum]
 
 **Camada de Copy** (usada nas plataformas como texto do anúncio):
-- Copy de Corpo Meta Ads (legenda persuasiva, máximo 150 palavras)
+- Copy de Corpo Meta Ads (legenda persuasiva, preferencialmente 2–4 frases diretas; máximo 150 palavras)
 - Adaptação TikTok Ads / Reels (script de fala com marcação de tempo)
 
 ## Inputs que Carlos usa

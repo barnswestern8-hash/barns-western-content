@@ -1,0 +1,75 @@
+﻿pipeline:
+  name: "Barns Western Content — Pipeline Principal"
+  squad: "social-media"
+  version: "1.0.0"
+
+  mode: automatic
+
+  steps:
+    - step: 1
+      name: "auto-briefing"
+      file: "pipeline/steps/step-01-briefing.md"
+      agent: "iago-ideia"
+      execution: inline
+
+    - step: 2
+      name: "generate-angles"
+      file: "pipeline/steps/step-02-generate-angles.md"
+      agent: "iago-ideia"
+      execution: inline
+
+    - step: 3
+      name: "auto-angle-selection"
+      file: "pipeline/steps/step-03-angle-selection.md"
+      agent: "iago-ideia"
+      execution: inline
+
+    - step: 4
+      name: "create-feed"
+      file: "pipeline/steps/step-04-create-feed.md"
+      agent: "fernanda-feed"
+      execution: subagent
+      format: instagram-feed
+      model_tier: powerful
+
+    - step: 5
+      name: "create-reels-and-stories"
+      file: "pipeline/steps/step-05-create-reels-and-stories.md"
+      execution: subagent
+      parallel: true
+      model_tier: fast
+      agents:
+        - id: "rodrigo-reels"
+          format: instagram-reels
+        - id: "sofia-stories"
+          format: instagram-stories
+
+    - step: 6
+      name: "auto-content-approval"
+      file: "pipeline/steps/step-06-content-approval.md"
+      agent: "vera-veredito"
+      execution: inline
+
+    - step: 7
+      name: "review"
+      file: "pipeline/steps/step-07-review.md"
+      agent: "vera-veredito"
+      execution: inline
+      on_reject: 4
+
+    - step: 8
+      name: "auto-publish"
+      file: "pipeline/steps/step-08-final-approval.md"
+      agent: "vera-veredito"
+      execution: inline
+
+benchmark_pipeline:
+  name: "Barns Western — Benchmark de Referências"
+  description: "Pipeline independente para re-investigação periódica dos 5 perfis de referência. Executar a cada 30-45 dias."
+  steps:
+    - step: 1
+      name: "re-investigate-profiles"
+      file: "pipeline/steps/benchmark-step-01-re-investigate-profiles.md"
+      agent: "bruno-benchmark"
+      execution: subagent
+      model_tier: powerful

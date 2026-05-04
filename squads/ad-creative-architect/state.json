@@ -1,51 +1,20 @@
 {
   "squad": "ad-creative-architect",
-  "status": "completed",
+  "status": "running",
   "step": { "current": 9, "total": 9, "label": "final-approval" },
   "agents": [
-    {
-      "id": "paula-psicologa",
-      "name": "Paula Psicóloga",
-      "icon": "🧠",
-      "status": "done",
-      "desk": { "col": 1, "row": 1 }
-    },
-    {
-      "id": "artur-angulo",
-      "name": "Artur Ângulo",
-      "icon": "💡",
-      "status": "done",
-      "desk": { "col": 2, "row": 1 }
-    },
-    {
-      "id": "carlos-criativo",
-      "name": "Carlos Criativo",
-      "icon": "✍️",
-      "status": "done",
-      "desk": { "col": 3, "row": 1 }
-    },
-    {
-      "id": "diego-diretor",
-      "name": "Diego Diretor",
-      "icon": "🎬",
-      "status": "done",
-      "desk": { "col": 1, "row": 2 }
-    },
-    {
-      "id": "vera-veredito",
-      "name": "Vera Veredito",
-      "icon": "✅",
-      "status": "done",
-      "desk": { "col": 2, "row": 2 }
-    }
+    { "id": "paula-psicologa", "name": "Paula Psicóloga", "icon": "🧠", "status": "done", "desk": { "col": 1, "row": 1 } },
+    { "id": "artur-angulo", "name": "Artur Ângulo", "icon": "💡", "status": "done", "desk": { "col": 2, "row": 1 } },
+    { "id": "carlos-criativo", "name": "Carlos Criativo", "icon": "✍️", "status": "done", "desk": { "col": 3, "row": 1 } },
+    { "id": "diego-diretor", "name": "Diego Diretor", "icon": "🎬", "status": "done", "desk": { "col": 1, "row": 2 } },
+    { "id": "vera-veredito", "name": "Vera Veredito", "icon": "✅", "status": "done", "desk": { "col": 2, "row": 2 } }
   ],
   "handoff": {
-    "from": "checkpoint",
-    "to": null,
-    "message": "Run aprovado pelo usuário. 9/9 criativos entregues. Score médio 8.47/10. Memórias e histórico atualizados.",
-    "completedAt": "2026-05-01T19:15:00Z"
+    "from": "vera-veredito",
+    "to": "checkpoint",
+    "message": "Validação completa: 15/15 APROVADOS. Score médio da rodada: 8.3/10. Destaque: C6 (9.0) — melhor hipótese da rodada. Aguardando aprovação final e registro do run.",
+    "completedAt": "2026-05-02T15:30:00Z"
   },
-  "startedAt": "2026-05-01T17:52:23Z",
-  "updatedAt": "2026-05-01T19:15:00Z",
-  "completedAt": "2026-05-01T19:15:00Z"
+  "startedAt": "2026-05-02T13:57:39Z",
+  "updatedAt": "2026-05-02T15:30:00Z"
 }

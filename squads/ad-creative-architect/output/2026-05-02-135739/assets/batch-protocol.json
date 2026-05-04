@@ -1,0 +1,51 @@
+[
+  {
+    "protocol": "A",
+    "description": "Pertencimento Tribal — campo/rodeio ao entardecer",
+    "creatives": ["C1", "C2", "C3"],
+    "prompt": "Brazilian country man 26-34 years old, bronzed skin, short beard, wearing dark jeans, western plaid shirt, leather boots, artisan copper bracelet visible on left wrist naturally integrated into outfit, standing in open field at golden hour sunset, dry grass and barbed wire fence in background, warm lateral backlight creating golden rim on model, editorial western lifestyle photography, shallow depth of field f2.2, background blurred with golden bokeh, copper bracelet catching warm light, authentic non-staged posture, photorealistic, high detail, Wrangler and Boot Barn campaign aesthetic, portrait orientation 4:5, no text",
+    "output": "squads/ad-creative-architect/output/2026-05-02-135739/assets/protocolo-A-base.jpg"
+  },
+  {
+    "protocol": "B",
+    "description": "Creator/UGC Pertencimento — candid cotidiano autêntico",
+    "creatives": ["C4"],
+    "prompt": "Brazilian country man 24-32 years casual self-shot photo, natural look, wearing jeans and casual country shirt, artisan copper bracelet naturally visible on left wrist, candid authentic moment at home or truck or rural property, natural window or outdoor afternoon light, smartphone quality photo aesthetic, no professional lighting setup, authentic candid feeling, real environment background with rustic wood or brick or rural textures, photorealistic, portrait orientation 4:5, no text, UGC authentic style",
+    "output": "squads/ad-creative-architect/output/2026-05-02-135739/assets/protocolo-B-base.jpg"
+  },
+  {
+    "protocol": "C",
+    "description": "DNA do Produto — macro cobre artesanal sobre couro/preto",
+    "creatives": ["C5", "C10", "C15"],
+    "prompt": "Macro close-up of artisan copper bracelet on dark natural leather surface or black background, dramatic single raking side light from left at 30 degrees revealing handmade copper texture and natural oxidation details, warm amber light 3800K, high contrast with dark shadow revealing artisanal surface irregularities, no human model, editorial product photography of handcrafted copper jewelry, ultra high detail, photorealistic, copper tones with dark leather background, minimalist composition, portrait orientation 4:5, no text, professional artisan product photography style",
+    "output": "squads/ad-creative-architect/output/2026-05-02-135739/assets/protocolo-C-base.jpg"
+  },
+  {
+    "protocol": "D",
+    "description": "Identificação pelo Espelho — preparação antes de sair",
+    "creatives": ["C6", "C7", "C8"],
+    "prompt": "Brazilian country man 26-34 years old standing in front of mirror or in preparation setting at home, wearing complete country outfit dark jeans western plaid shirt leather boots, adjusting artisan copper bracelet on left wrist, afternoon window light from left side, authentic home bedroom or ranch dressing room environment, natural non-staged posture evaluating own outfit, editorial western lifestyle photography, shallow depth of field f1.8, warm afternoon light 4200K, copper bracelet in focus integrating naturally with outfit, photorealistic, portrait orientation 4:5, no text, authentic non-catalog style",
+    "output": "squads/ad-creative-architect/output/2026-05-02-135739/assets/protocolo-D-base.jpg"
+  },
+  {
+    "protocol": "E",
+    "description": "Creator/UGC Espelho — candid selfie autêntico no espelho",
+    "creatives": ["C9"],
+    "prompt": "Brazilian country man 24-32 years old taking self-portrait in mirror, wearing casual country outfit with artisan copper bracelet on wrist, real home bathroom or bedroom environment, natural indoor lighting, smartphone photo quality candid aesthetic, authentic non-staged mirror selfie, casual jeans and country shirt, copper bracelet visible in reflection, real environment background with tiles or walls visible, photorealistic candid style, portrait orientation 4:5, no text, UGC authentic creator style",
+    "output": "squads/ad-creative-architect/output/2026-05-02-135739/assets/protocolo-E-base.jpg"
+  },
+  {
+    "protocol": "F",
+    "description": "Confronto da Crença — campo confiante, olhar direto para câmera",
+    "creatives": ["C11", "C12", "C13"],
+    "prompt": "Brazilian country man 28-36 years old, confident direct posture looking at camera, strong features, wearing complete country outfit dark jeans western shirt leather boots artisan copper bracelet on left wrist, standing in open field or ranch arena setting, strong afternoon sun lighting creating defined shadows, confident natural expression not staged, no need to prove anything attitude, editorial western lifestyle photography, shallow depth of field f2.8, warm sunlit field background, copper bracelet integrated naturally into outfit, photorealistic, Wrangler campaign masculine aesthetic, portrait orientation 4:5, no text",
+    "output": "squads/ad-creative-architect/output/2026-05-02-135739/assets/protocolo-F-base.jpg"
+  },
+  {
+    "protocol": "G",
+    "description": "Creator/UGC Confronto — candid confiante, saindo para evento",
+    "creatives": ["C14"],
+    "prompt": "Brazilian country man 24-32 years old candid photo taken by friend or self, wearing country outfit with artisan copper bracelet on wrist, real outdoor or home environment getting ready to go out, natural afternoon light, confident relaxed expression, authentic non-staged candid photo quality, smartphone aesthetic without professional editing, copper bracelet naturally integrated into complete country outfit, photorealistic UGC style, portrait orientation 4:5, no text",
+    "output": "squads/ad-creative-architect/output/2026-05-02-135739/assets/protocolo-G-base.jpg"
+  }
+]

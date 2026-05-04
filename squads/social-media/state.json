@@ -1,0 +1,61 @@
+{
+  "squad": "social-media",
+  "status": "completed",
+  "step": { "current": 8, "total": 8, "label": "image-generation-done" },
+  "agents": [
+    {
+      "id": "iago-ideia",
+      "name": "Iago Ideia",
+      "icon": "🎯",
+      "status": "done",
+      "desk": { "col": 1, "row": 1 }
+    },
+    {
+      "id": "fernanda-feed",
+      "name": "Fernanda Feed",
+      "icon": "📸",
+      "status": "done",
+      "desk": { "col": 2, "row": 1 }
+    },
+    {
+      "id": "rodrigo-reels",
+      "name": "Rodrigo Reels",
+      "icon": "🎬",
+      "status": "done",
+      "desk": { "col": 3, "row": 1 }
+    },
+    {
+      "id": "sofia-stories",
+      "name": "Sofia Stories",
+      "icon": "📱",
+      "status": "done",
+      "desk": { "col": 1, "row": 2 }
+    },
+    {
+      "id": "vera-veredito",
+      "name": "Vera Veredito",
+      "icon": "✅",
+      "status": "done",
+      "desk": { "col": 2, "row": 2 }
+    },
+    {
+      "id": "bruno-benchmark",
+      "name": "Bruno Benchmark",
+      "icon": "🔍",
+      "status": "idle",
+      "desk": { "col": 3, "row": 2 }
+    }
+  ],
+  "lastRun": {
+    "id": "2026-05-03-213832",
+    "product": "Óculos Hunter (Masculino)",
+    "angle": "STATUS — UV400",
+    "formats": "Feed 7 slides + Reel 22s + Stories 5 frames",
+    "images": "12 PNGs gerados (7 Feed 1080x1080 + 5 Stories 1080x1920)",
+    "veraScore": "Feed 9.0 | Reels 9.1 | Stories 9.6",
+    "aiImage": "stories-frame-2 — cerrado ao entardecer via OpenRouter Gemini Flash",
+    "completedAt": "2026-05-03T22:30:00Z"
+  },
+  "startedAt": "2026-05-03T21:38:32Z",
+  "updatedAt": "2026-05-03T22:30:00Z"
+}
