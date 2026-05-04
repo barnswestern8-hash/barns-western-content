@@ -1,0 +1,17 @@
+[
+  {
+    "prompt": "Close-up of a male wrist wearing an artisan copper bracelet, bronzed skin, wrist resting on rustic wooden fence post or leather surface, warm golden side lighting from right at 45 degrees, editorial western lifestyle photography, shallow depth of field f2.0, background of blurred rustic wood texture, terracotta and copper color tones, photorealistic, high detail, authentic non-staged feeling, portrait orientation 4:5, no text, clean composition",
+    "output": "squads/ad-creative-architect/output/2026-05-01-175223/assets/protocolo-A-base.jpg",
+    "reference": "squads/barns-western-content/assets/products/Braceletes de cobre/Bracelete de cobre Matriz.jpg"
+  },
+  {
+    "prompt": "Male wrist wearing a copper bracelet on solid black background, dramatic single-source spotlight lighting from right, amber golden light catching copper metal texture and natural oxidation details, high contrast, minimalist editorial composition, the bracelet is the only subject, deep shadow on left side, photorealistic, ultra high detail close-up, professional product photography meets lifestyle, portrait orientation 4:5, no text",
+    "output": "squads/ad-creative-architect/output/2026-05-01-175223/assets/protocolo-B-base.jpg",
+    "reference": "squads/barns-western-content/assets/products/Braceletes de cobre/Bracelete Bunkhouse (4).png"
+  },
+  {
+    "prompt": "Young Brazilian country man 28-32 years old with strong jawline and short beard, wearing brown leather cowboy hat, dark denim shirt, jeans, copper bracelet visible on wrist resting on wooden arena gate or ranch fence, late afternoon golden hour backlight with warm rim lighting, authentic non-posed country attitude, blurred rural background with dry grass and sky, editorial western lifestyle photography, photorealistic, portrait orientation 4:5, no text",
+    "output": "squads/ad-creative-architect/output/2026-05-01-175223/assets/protocolo-C-base.jpg",
+    "reference": "squads/barns-western-content/assets/products/Braceletes de cobre/Bracelete de cobre Lariat.jpg"
+  }
+]
